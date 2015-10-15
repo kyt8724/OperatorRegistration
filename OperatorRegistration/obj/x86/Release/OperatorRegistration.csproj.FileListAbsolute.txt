@@ -1,0 +1,231 @@
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ResolveAssemblyReference.cache
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.read.1.tlog
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.write.1.tlog
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+L:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ResolveAssemblyReference.cache
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.read.1.tlog
+M:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.write.1.tlog
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ResolveAssemblyReference.cache
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.read.1.tlog
+F:\DATA\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.write.1.tlog
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ResolveAssemblyReference.cache
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.read.1.tlog
+M:\Data File\security groupware\new program\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GenerateResource.write.1.tlog
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csproj.GenerateResource.Cache
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csproj.GenerateResource.Cache
+H:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csprojResolveAssemblyReference.cache
+M:\Data File\security groupware\new program  after 20121217\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csprojResolveAssemblyReference.cache
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csprojResolveAssemblyReference.cache
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+M:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csproj.GenerateResource.Cache
+H:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+H:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+H:\Data File\Developing\DOTNET\project_code\windows_desktop\security groupware\new program  after 20140923\OperatorRegistration\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+M:\Github\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe.config
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.exe
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.pdb
+M:\Github\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.exe
+M:\Github\OperatorRegistration\OperatorRegistration\bin\Release\OperatorRegistration.pdb
+M:\Github\OperatorRegistration\OperatorRegistration\bin\Release\WebCam_Capture.dll
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csprojResolveAssemblyReference.cache
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\CapturePhoto.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\LogIn.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\ProgressBarForProcess.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\SearchOffice.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\App.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_Content.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.cache
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration_MarkupCompile.lref
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\MainWindow.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\Upload.baml
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.g.resources
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.Properties.Resources.resources
+M:\Github\OperatorRegistration\OperatorRegistration\obj\x86\Release\OperatorRegistration.csproj.GenerateResource.Cache

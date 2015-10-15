@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<OtherOptions>
+  <OperatorOptions>
+    <OperatorOption>
+      <Value>Gate Operator</Value>
+      <Operator>Gate Operator</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Visitor Center Operator</Value>
+      <Operator>Visitor Center Operator</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Registrar</Value>
+      <Operator>Registrar</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Super Registrar</Value>
+      <Operator>Super Registrar</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Law Enforcement</Value>
+      <Operator>Law Enforcement</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Site Security Manager</Value>
+      <Operator>Site Security Manager</Operator>
+    </OperatorOption>
+    <OperatorOption>
+      <Value>Provost Marshal Official</Value>
+      <Operator>Provost Marshal Official</Operator>
+    </OperatorOption>
+  </OperatorOptions>
+
+  <CertificateStatusOptions>
+    <CertificateStatusOption>
+      <Value>Current</Value>
+      <CertificateStatus>Current</CertificateStatus>
+    </CertificateStatusOption>
+    <CertificateStatusOption>
+      <Value>Expired</Value>
+      <CertificateStatus>Expired</CertificateStatus>
+    </CertificateStatusOption>
+    <CertificateStatusOption>
+      <Value>Archived</Value>
+      <CertificateStatus>Archived</CertificateStatus>
+    </CertificateStatusOption>
+  </CertificateStatusOptions>
+
+  <PersonStatusOptions>
+    <PersonStatusOption>
+      <Value>Current</Value>
+      <PersonStatus>Current</PersonStatus>
+    </PersonStatusOption>
+    <PersonStatusOption>
+      <Value>Pending</Value>
+      <PersonStatus>Pending</PersonStatus>
+    </PersonStatusOption>
+    <PersonStatusOption>
+      <Value>Archived</Value>
+      <PersonStatus>Archived</PersonStatus>
+    </PersonStatusOption>
+  </PersonStatusOptions>
+
+
+  <TrainingStatusOptions>
+    <TrainingStatusOption>
+      <Value>Pending</Value>
+      <TrainingStatus>Pending</TrainingStatus>
+    </TrainingStatusOption>
+    <TrainingStatusOption>
+      <Value>Completed</Value>
+      <TrainingStatus>Completed</TrainingStatus>
+    </TrainingStatusOption>
+    <TrainingStatusOption>
+      <Value>Canceled</Value>
+      <TrainingStatus>Canceled</TrainingStatus>
+    </TrainingStatusOption>
+  </TrainingStatusOptions>
+
+  <ClassTypeOptions>
+    <ClassTypeOption>
+      <Value>Initial</Value>
+      <ClassType>Initial</ClassType>
+    </ClassTypeOption>
+    <ClassTypeOption>
+      <Value>Refresh</Value>
+      <ClassType>Refresh</ClassType>
+    </ClassTypeOption>
+  </ClassTypeOptions>
+
+  <EmailServerOptions>
+    <EmailServerOption>
+      <Value>** Manual Input **</Value>
+      <EmailServer>** Manual Input **</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>army.mil</Value>
+      <EmailServer>army.mil</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>af.mil</Value>
+      <EmailServer>af.mil</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>hanmail.net</Value>
+      <EmailServer>hanmail.net</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>hotmail.com</Value>
+      <EmailServer>hotmail.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>gmail.com</Value>
+      <EmailServer>gmail.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>kunsan.af.mil</Value>
+      <EmailServer>kunsan.af.mil</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>mail.mil</Value>
+      <EmailServer>mail.mil</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>nate.com</Value>
+      <EmailServer>nate.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>naver.com</Value>
+      <EmailServer>naver.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>osan.af.mil</Value>
+      <EmailServer>osan.af.mil</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>paran.com</Value>
+      <EmailServer>paran.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>yahoo.com</Value>
+      <EmailServer>yahoo.com</EmailServer>
+    </EmailServerOption>
+    <EmailServerOption>
+      <Value>yahoo.co.kr</Value>
+      <EmailServer>yahoo.co.kr</EmailServer>
+    </EmailServerOption>
+  </EmailServerOptions>
+  
+  <TestResultOptions>
+    <TestResultOption>
+      <Value>Pending</Value>
+      <TestResult>Pending</TestResult>
+    </TestResultOption>
+    <TestResultOption>
+      <Value>Pass</Value>
+      <TestResult>Pass</TestResult>
+    </TestResultOption>
+    <TestResultOption>
+      <Value>Failed</Value>
+      <TestResult>Failed</TestResult>
+    </TestResultOption>
+  </TestResultOptions>
+</OtherOptions>

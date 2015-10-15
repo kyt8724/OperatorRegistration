@@ -1,0 +1,3204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RankServiceOptions>
+  <RankOptions>
+    <RankService>
+      <Service>3RD NATION CIV</Service>
+      <Grade>CIV</Grade>
+      <Rank>3RD NATION CIVILIAN</Rank>
+      <RankGrade>CIV - 3RD NATION CIVILIAN</RankGrade>
+      <RankID>1</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>C01</Grade>
+      <Rank>Aviation Officer Candidate</Rank>
+      <RankGrade>C01 - Aviation Officer Candidate</RankGrade>
+      <RankID>2</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>C01</Grade>
+      <Rank>Cadet</Rank>
+      <RankGrade>C01 - Cadet</RankGrade>
+      <RankID>3</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>C01</Grade>
+      <Rank>Officer Candidate</Rank>
+      <RankGrade>C01 - Officer Candidate</RankGrade>
+      <RankID>4</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>C01</Grade>
+      <Rank>Reserve Officer Training Corps</Rank>
+      <RankGrade>C01 - Reserve Officer Training Corps</RankGrade>
+      <RankID>5</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E01</Grade>
+      <Rank>Airman Basic</Rank>
+      <RankGrade>E01 - Airman Basic</RankGrade>
+      <RankID>6</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E01</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E01 - Junior Enlisted</RankGrade>
+      <RankID>7</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E02</Grade>
+      <Rank>Airman</Rank>
+      <RankGrade>E02 - Airman</RankGrade>
+      <RankID>8</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E02</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E02 - Junior Enlisted</RankGrade>
+      <RankID>9</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E03</Grade>
+      <Rank>Airman First Class</Rank>
+      <RankGrade>E03 - Airman First Class</RankGrade>
+      <RankID>10</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E03</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E03 - Junior Enlisted</RankGrade>
+      <RankID>11</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E04</Grade>
+      <Rank>Senior Airman</Rank>
+      <RankGrade>E04 - Senior Airman</RankGrade>
+      <RankID>12</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E04</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E04 - Sergeant</RankGrade>
+      <RankID>13</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E05</Grade>
+      <Rank>Staff Sergeant</Rank>
+      <RankGrade>E05 - Staff Sergeant</RankGrade>
+      <RankID>14</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E06</Grade>
+      <Rank>Technical Sergeant</Rank>
+      <RankGrade>E06 - Technical Sergeant</RankGrade>
+      <RankID>15</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E07</Grade>
+      <Rank>Master Sergeant</Rank>
+      <RankGrade>E07 - Master Sergeant</RankGrade>
+      <RankID>16</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E08</Grade>
+      <Rank>Senior Master Sergeant</Rank>
+      <RankGrade>E08 - Senior Master Sergeant</RankGrade>
+      <RankID>17</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E09</Grade>
+      <Rank>Chief Master Sergeant</Rank>
+      <RankGrade>E09 - Chief Master Sergeant</RankGrade>
+      <RankID>18</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>E09</Grade>
+      <Rank>Chief Master Sergeant of the Air Force</Rank>
+      <RankGrade>E09 - Chief Master Sergeant of the Air Force</RankGrade>
+      <RankID>19</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O01</Grade>
+      <Rank>Second Lieutenant</Rank>
+      <RankGrade>O01 - Second Lieutenant</RankGrade>
+      <RankID>20</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O02</Grade>
+      <Rank>First Lieutenant</Rank>
+      <RankGrade>O02 - First Lieutenant</RankGrade>
+      <RankID>21</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>22</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>23</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O05</Grade>
+      <Rank>Lieutenant Colonel</Rank>
+      <RankGrade>O05 - Lieutenant Colonel</RankGrade>
+      <RankID>24</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>25</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier General</Rank>
+      <RankGrade>O07 - Brigadier General</RankGrade>
+      <RankID>26</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>27</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>28</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>29</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>W01</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>W01 - Warrant Officer</RankGrade>
+      <RankID>30</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>W02</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W02 - Chief Warrant Officer</RankGrade>
+      <RankID>31</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>W03</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W03 - Chief Warrant Officer</RankGrade>
+      <RankID>32</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>W04</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W04 - Chief Warrant Officer</RankGrade>
+      <RankID>33</RankID>
+    </RankService>
+    <RankService>
+      <Service>AIR FORCE</Service>
+      <Grade>W05</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W05 - Chief Warrant Officer</RankGrade>
+      <RankID>34</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E01</Grade>
+      <Rank>Aircraftsman</Rank>
+      <RankGrade>E01 - Aircraftsman</RankGrade>
+      <RankID>35</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E02</Grade>
+      <Rank>Airman</Rank>
+      <RankGrade>E02 - Airman</RankGrade>
+      <RankID>36</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E03</Grade>
+      <Rank>Airman First Class</Rank>
+      <RankGrade>E03 - Airman First Class</RankGrade>
+      <RankID>37</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E04</Grade>
+      <Rank>Senior Airman</Rank>
+      <RankGrade>E04 - Senior Airman</RankGrade>
+      <RankID>38</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E05</Grade>
+      <Rank>Staff Sergeant</Rank>
+      <RankGrade>E05 - Staff Sergeant</RankGrade>
+      <RankID>39</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E06</Grade>
+      <Rank>Techinical Sergeant</Rank>
+      <RankGrade>E06 - Techinical Sergeant</RankGrade>
+      <RankID>40</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E07</Grade>
+      <Rank>Master Sergeant</Rank>
+      <RankGrade>E07 - Master Sergeant</RankGrade>
+      <RankID>41</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E08</Grade>
+      <Rank>Senior Master Sergeant</Rank>
+      <RankGrade>E08 - Senior Master Sergeant</RankGrade>
+      <RankID>42</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>E09</Grade>
+      <Rank>Chief Master Sergeant</Rank>
+      <RankGrade>E09 - Chief Master Sergeant</RankGrade>
+      <RankID>43</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>N/A</Grade>
+      <Rank>Officer Candidate</Rank>
+      <RankGrade>N/A - Officer Candidate</RankGrade>
+      <RankID>44</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O01</Grade>
+      <Rank>2nd Lieutenant</Rank>
+      <RankGrade>O01 - 2nd Lieutenant</RankGrade>
+      <RankID>45</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O02</Grade>
+      <Rank>1st Lieutenant</Rank>
+      <RankGrade>O02 - 1st Lieutenant</RankGrade>
+      <RankID>46</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>47</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>48</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O05</Grade>
+      <Rank>LT Colonel</Rank>
+      <RankGrade>O05 - LT Colonel</RankGrade>
+      <RankID>49</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>50</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier General</Rank>
+      <RankGrade>O07 - Brigadier General</RankGrade>
+      <RankID>51</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>52</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>53</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED AIR FORCE</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>54</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E01</Grade>
+      <Rank>Private</Rank>
+      <RankGrade>E01 - Private</RankGrade>
+      <RankID>55</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E02</Grade>
+      <Rank>Private</Rank>
+      <RankGrade>E02 - Private</RankGrade>
+      <RankID>56</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E03</Grade>
+      <Rank>Lance Corporal</Rank>
+      <RankGrade>E03 - Lance Corporal</RankGrade>
+      <RankID>57</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E04</Grade>
+      <Rank>Corporal</Rank>
+      <RankGrade>E04 - Corporal</RankGrade>
+      <RankID>58</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E05</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E05 - Sergeant</RankGrade>
+      <RankID>59</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E06</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E06 - Sergeant</RankGrade>
+      <RankID>60</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E07</Grade>
+      <Rank>Staff Sergeant</Rank>
+      <RankGrade>E07 - Staff Sergeant</RankGrade>
+      <RankID>61</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E08</Grade>
+      <Rank>Warrant Officer Class 2</Rank>
+      <RankGrade>E08 - Warrant Officer Class 2</RankGrade>
+      <RankID>62</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>E09</Grade>
+      <Rank>Warrant Officer Class 1</Rank>
+      <RankGrade>E09 - Warrant Officer Class 1</RankGrade>
+      <RankID>63</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O01</Grade>
+      <Rank>Second Lieutenant</Rank>
+      <RankGrade>O01 - Second Lieutenant</RankGrade>
+      <RankID>64</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O02</Grade>
+      <Rank>Lieutenant</Rank>
+      <RankGrade>O02 - Lieutenant</RankGrade>
+      <RankID>65</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>66</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>67</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O05</Grade>
+      <Rank>Lieutenant Colonel</Rank>
+      <RankGrade>O05 - Lieutenant Colonel</RankGrade>
+      <RankID>68</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>69</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier</Rank>
+      <RankGrade>O07 - Brigadier</RankGrade>
+      <RankID>70</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>71</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>72</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>73</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED ARMY</Service>
+      <Grade>WO</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>WO - Warrant Officer</RankGrade>
+      <RankID>74</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E01</Grade>
+      <Rank>Private</Rank>
+      <RankGrade>E01 - Private</RankGrade>
+      <RankID>75</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E02</Grade>
+      <Rank>Private</Rank>
+      <RankGrade>E02 - Private</RankGrade>
+      <RankID>76</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E03</Grade>
+      <Rank>Lance Corporal</Rank>
+      <RankGrade>E03 - Lance Corporal</RankGrade>
+      <RankID>77</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E04</Grade>
+      <Rank>Corporal</Rank>
+      <RankGrade>E04 - Corporal</RankGrade>
+      <RankID>78</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E05</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E05 - Sergeant</RankGrade>
+      <RankID>79</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E06</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E06 - Sergeant</RankGrade>
+      <RankID>80</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E07</Grade>
+      <Rank>Colour Sergeant</Rank>
+      <RankGrade>E07 - Colour Sergeant</RankGrade>
+      <RankID>81</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E08</Grade>
+      <Rank>Warrant Officer Class 2</Rank>
+      <RankGrade>E08 - Warrant Officer Class 2</RankGrade>
+      <RankID>82</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>E09</Grade>
+      <Rank>Warrant Officer Class 1</Rank>
+      <RankGrade>E09 - Warrant Officer Class 1</RankGrade>
+      <RankID>83</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O01</Grade>
+      <Rank>Second Lieutenant</Rank>
+      <RankGrade>O01 - Second Lieutenant</RankGrade>
+      <RankID>84</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O02</Grade>
+      <Rank>Lieutenant</Rank>
+      <RankGrade>O02 - Lieutenant</RankGrade>
+      <RankID>85</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>86</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>87</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O05</Grade>
+      <Rank>Lieutenant Colonel</Rank>
+      <RankGrade>O05 - Lieutenant Colonel</RankGrade>
+      <RankID>88</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>89</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier</Rank>
+      <RankGrade>O07 - Brigadier</RankGrade>
+      <RankID>90</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>91</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>92</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED MARINE CORPS</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>93</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E01</Grade>
+      <Rank>Ordinary</Rank>
+      <RankGrade>E01 - Ordinary</RankGrade>
+      <RankID>94</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E02</Grade>
+      <Rank>AB</Rank>
+      <RankGrade>E02 - AB</RankGrade>
+      <RankID>95</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E03</Grade>
+      <Rank>AB</Rank>
+      <RankGrade>E03 - AB</RankGrade>
+      <RankID>96</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E04</Grade>
+      <Rank>Leading Hand</Rank>
+      <RankGrade>E04 - Leading Hand</RankGrade>
+      <RankID>97</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E05</Grade>
+      <Rank>Petty Officer</Rank>
+      <RankGrade>E05 - Petty Officer</RankGrade>
+      <RankID>98</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E06</Grade>
+      <Rank>Petty Officer</Rank>
+      <RankGrade>E06 - Petty Officer</RankGrade>
+      <RankID>99</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E07</Grade>
+      <Rank>Chief Petty Officer</Rank>
+      <RankGrade>E07 - Chief Petty Officer</RankGrade>
+      <RankID>100</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E08</Grade>
+      <Rank>Chief Petty Officer</Rank>
+      <RankGrade>E08 - Chief Petty Officer</RankGrade>
+      <RankID>101</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>E09</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>E09 - Warrant Officer</RankGrade>
+      <RankID>102</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O02</Grade>
+      <Rank>Sub Lieutenant</Rank>
+      <RankGrade>O02 - Sub Lieutenant</RankGrade>
+      <RankID>103</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O03</Grade>
+      <Rank>Lieutenant</Rank>
+      <RankGrade>O03 - Lieutenant</RankGrade>
+      <RankID>104</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O04</Grade>
+      <Rank>Lieutenant Commander</Rank>
+      <RankGrade>O04 - Lieutenant Commander</RankGrade>
+      <RankID>105</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O05</Grade>
+      <Rank>Commander</Rank>
+      <RankGrade>O05 - Commander</RankGrade>
+      <RankID>106</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O06</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O06 - Captain</RankGrade>
+      <RankID>107</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O07</Grade>
+      <Rank>Commodore</Rank>
+      <RankGrade>O07 - Commodore</RankGrade>
+      <RankID>108</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O08</Grade>
+      <Rank>Rear Admiral</Rank>
+      <RankGrade>O08 - Rear Admiral</RankGrade>
+      <RankID>109</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O09</Grade>
+      <Rank>Vice Admiral</Rank>
+      <RankGrade>O09 - Vice Admiral</RankGrade>
+      <RankID>110</RankID>
+    </RankService>
+    <RankService>
+      <Service>ALLIED NAVY</Service>
+      <Grade>O10</Grade>
+      <Rank>Admiral</Rank>
+      <RankGrade>O10 - Admiral</RankGrade>
+      <RankID>111</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>C01</Grade>
+      <Rank>Cadet</Rank>
+      <RankGrade>C01 - Cadet</RankGrade>
+      <RankID>112</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>C01</Grade>
+      <Rank>Officer Candidate</Rank>
+      <RankGrade>C01 - Officer Candidate</RankGrade>
+      <RankID>113</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>C01</Grade>
+      <Rank>Reserve Officer Training Corps</Rank>
+      <RankGrade>C01 - Reserve Officer Training Corps</RankGrade>
+      <RankID>114</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E01</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E01 - Junior Enlisted</RankGrade>
+      <RankID>115</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E01</Grade>
+      <Rank>Private (no insignia)</Rank>
+      <RankGrade>E01 - Private (no insignia)</RankGrade>
+      <RankID>116</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E02</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E02 - Junior Enlisted</RankGrade>
+      <RankID>117</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E02</Grade>
+      <Rank>Private</Rank>
+      <RankGrade>E02 - Private</RankGrade>
+      <RankID>118</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E03</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E03 - Junior Enlisted</RankGrade>
+      <RankID>119</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E03</Grade>
+      <Rank>Private First Class</Rank>
+      <RankGrade>E03 - Private First Class</RankGrade>
+      <RankID>120</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E04</Grade>
+      <Rank>Corporal</Rank>
+      <RankGrade>E04 - Corporal</RankGrade>
+      <RankID>121</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E04</Grade>
+      <Rank>Specialist</Rank>
+      <RankGrade>E04 - Specialist</RankGrade>
+      <RankID>122</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E04</Grade>
+      <Rank>Specialist 4</Rank>
+      <RankGrade>E04 - Specialist 4</RankGrade>
+      <RankID>123</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E05</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E05 - Sergeant</RankGrade>
+      <RankID>124</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E05</Grade>
+      <Rank>Specialist 5</Rank>
+      <RankGrade>E05 - Specialist 5</RankGrade>
+      <RankID>125</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E06</Grade>
+      <Rank>Specialist 6</Rank>
+      <RankGrade>E06 - Specialist 6</RankGrade>
+      <RankID>126</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E06</Grade>
+      <Rank>Staff Sergeant</Rank>
+      <RankGrade>E06 - Staff Sergeant</RankGrade>
+      <RankID>127</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E07</Grade>
+      <Rank>Platoon Sergeant</Rank>
+      <RankGrade>E07 - Platoon Sergeant</RankGrade>
+      <RankID>128</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E07</Grade>
+      <Rank>Sergeant First Class</Rank>
+      <RankGrade>E07 - Sergeant First Class</RankGrade>
+      <RankID>129</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E07</Grade>
+      <Rank>Staff Sergeant (obsolete)</Rank>
+      <RankGrade>E07 - Staff Sergeant (obsolete)</RankGrade>
+      <RankID>130</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E08</Grade>
+      <Rank>First Sergeant</Rank>
+      <RankGrade>E08 - First Sergeant</RankGrade>
+      <RankID>131</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E08</Grade>
+      <Rank>Master Sergeant</Rank>
+      <RankGrade>E08 - Master Sergeant</RankGrade>
+      <RankID>132</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E09</Grade>
+      <Rank>Command Sergeant Major</Rank>
+      <RankGrade>E09 - Command Sergeant Major</RankGrade>
+      <RankID>133</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E09</Grade>
+      <Rank>Sergeant Major</Rank>
+      <RankGrade>E09 - Sergeant Major</RankGrade>
+      <RankID>134</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>E09</Grade>
+      <Rank>Sergeant Major of the Army</Rank>
+      <RankGrade>E09 - Sergeant Major of the Army</RankGrade>
+      <RankID>135</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O01</Grade>
+      <Rank>Second Lieutenant</Rank>
+      <RankGrade>O01 - Second Lieutenant</RankGrade>
+      <RankID>136</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O02</Grade>
+      <Rank>First Lieutenant</Rank>
+      <RankGrade>O02 - First Lieutenant</RankGrade>
+      <RankID>137</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>138</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>139</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O05</Grade>
+      <Rank>Lieutenant Colonel</Rank>
+      <RankGrade>O05 - Lieutenant Colonel</RankGrade>
+      <RankID>140</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>141</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier General</Rank>
+      <RankGrade>O07 - Brigadier General</RankGrade>
+      <RankID>142</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>143</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>144</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>145</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>W01</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>W01 - Warrant Officer</RankGrade>
+      <RankID>146</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>W02</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W02 - Chief Warrant Officer</RankGrade>
+      <RankID>147</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>W03</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W03 - Chief Warrant Officer</RankGrade>
+      <RankID>148</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>W04</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W04 - Chief Warrant Officer</RankGrade>
+      <RankID>149</RankID>
+    </RankService>
+    <RankService>
+      <Service>ARMY</Service>
+      <Grade>W05</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W05 - Chief Warrant Officer</RankGrade>
+      <RankID>150</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>C01</Grade>
+      <Rank>Aviation Officer Candidate</Rank>
+      <RankGrade>C01 - Aviation Officer Candidate</RankGrade>
+      <RankID>151</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>C01</Grade>
+      <Rank>Midshipman</Rank>
+      <RankGrade>C01 - Midshipman</RankGrade>
+      <RankID>152</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>C01</Grade>
+      <Rank>Officer Candidate</Rank>
+      <RankGrade>C01 - Officer Candidate</RankGrade>
+      <RankID>153</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>C01</Grade>
+      <Rank>Reserve Officer Training Corps</Rank>
+      <RankGrade>C01 - Reserve Officer Training Corps</RankGrade>
+      <RankID>154</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E01</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E01 - Junior Enlisted</RankGrade>
+      <RankID>155</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E01</Grade>
+      <Rank>Seaman Recruit</Rank>
+      <RankGrade>E01 - Seaman Recruit</RankGrade>
+      <RankID>156</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E02</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E02 - Junior Enlisted</RankGrade>
+      <RankID>157</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E02</Grade>
+      <Rank>Seaman Apprentice</Rank>
+      <RankGrade>E02 - Seaman Apprentice</RankGrade>
+      <RankID>158</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E03</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E03 - Junior Enlisted</RankGrade>
+      <RankID>159</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E03</Grade>
+      <Rank>Seaman</Rank>
+      <RankGrade>E03 - Seaman</RankGrade>
+      <RankID>160</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E04</Grade>
+      <Rank>Petty Officer Third Class</Rank>
+      <RankGrade>E04 - Petty Officer Third Class</RankGrade>
+      <RankID>161</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E05</Grade>
+      <Rank>Petty Officer Second Class</Rank>
+      <RankGrade>E05 - Petty Officer Second Class</RankGrade>
+      <RankID>162</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E06</Grade>
+      <Rank>Petty Officer First Class</Rank>
+      <RankGrade>E06 - Petty Officer First Class</RankGrade>
+      <RankID>163</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E07</Grade>
+      <Rank>Chief Petty Officer</Rank>
+      <RankGrade>E07 - Chief Petty Officer</RankGrade>
+      <RankID>164</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E08</Grade>
+      <Rank>Senior Chief Petty Officer</Rank>
+      <RankGrade>E08 - Senior Chief Petty Officer</RankGrade>
+      <RankID>165</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E09</Grade>
+      <Rank>Master Chief Petty Officer</Rank>
+      <RankGrade>E09 - Master Chief Petty Officer</RankGrade>
+      <RankID>166</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>E09</Grade>
+      <Rank>Master Chief Petty Officer of the Coast Guard</Rank>
+      <RankGrade>E09 - Master Chief Petty Officer of the Coast Guard</RankGrade>
+      <RankID>167</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O01</Grade>
+      <Rank>Ensign</Rank>
+      <RankGrade>O01 - Ensign</RankGrade>
+      <RankID>168</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O02</Grade>
+      <Rank>Lieutenant Junior Grade</Rank>
+      <RankGrade>O02 - Lieutenant Junior Grade</RankGrade>
+      <RankID>169</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O03</Grade>
+      <Rank>Lieutenant</Rank>
+      <RankGrade>O03 - Lieutenant</RankGrade>
+      <RankID>170</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O04</Grade>
+      <Rank>Lieutenant Commander</Rank>
+      <RankGrade>O04 - Lieutenant Commander</RankGrade>
+      <RankID>171</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O05</Grade>
+      <Rank>Commander</Rank>
+      <RankGrade>O05 - Commander</RankGrade>
+      <RankID>172</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O06</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O06 - Captain</RankGrade>
+      <RankID>173</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O07</Grade>
+      <Rank>Rear Admiral</Rank>
+      <RankGrade>O07 - Rear Admiral</RankGrade>
+      <RankID>174</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O08</Grade>
+      <Rank>Rear Admiral</Rank>
+      <RankGrade>O08 - Rear Admiral</RankGrade>
+      <RankID>175</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O09</Grade>
+      <Rank>Vice Admiral</Rank>
+      <RankGrade>O09 - Vice Admiral</RankGrade>
+      <RankID>176</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>O10</Grade>
+      <Rank>Admiral</Rank>
+      <RankGrade>O10 - Admiral</RankGrade>
+      <RankID>177</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>W01</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>W01 - Warrant Officer</RankGrade>
+      <RankID>178</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>W02</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W02 - Chief Warrant Officer</RankGrade>
+      <RankID>179</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>W03</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W03 - Chief Warrant Officer</RankGrade>
+      <RankID>180</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>W04</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W04 - Chief Warrant Officer</RankGrade>
+      <RankID>181</RankID>
+    </RankService>
+    <RankService>
+      <Service>COAST GUARD</Service>
+      <Grade>W05</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W05 - Chief Warrant Officer</RankGrade>
+      <RankID>182</RankID>
+    </RankService>
+    <RankService>
+      <Service>CONTRACTOR/VENDOR</Service>
+      <Grade>CONTR</Grade>
+      <Rank>Local Contractor</Rank>
+      <RankGrade>CONTR - Local Contractor</RankGrade>
+      <RankID>183</RankID>
+    </RankService>
+    <RankService>
+      <Service>CONTRACTOR/VENDOR</Service>
+      <Grade>VENDR</Grade>
+      <Rank>Local Vendor</Rank>
+      <RankGrade>VENDR - Local Vendor</RankGrade>
+      <RankID>184</RankID>
+    </RankService>
+    <RankService>
+      <Service>DISTINGUISHED GUESTS</Service>
+      <Grade>D/GUEST</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>D/GUEST - Guest</RankGrade>
+      <RankID>185</RankID>
+    </RankService>
+    <RankService>
+      <Service>DISTINGUISHED GUESTS</Service>
+      <Grade>GEN(R)</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>GEN(R) - Guest</RankGrade>
+      <RankID>186</RankID>
+    </RankService>
+    <RankService>
+      <Service>DISTINGUISHED GUESTS</Service>
+      <Grade>MG(R)</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>MG(R) - Guest</RankGrade>
+      <RankID>187</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG01 - Civil Service</RankGrade>
+      <RankID>188</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG02 - Civil Service</RankGrade>
+      <RankID>189</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG03 - Civil Service</RankGrade>
+      <RankID>190</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG04</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG04 - Civil Service</RankGrade>
+      <RankID>191</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG05</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG05 - Civil Service</RankGrade>
+      <RankID>192</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG06</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG06 - Civil Service</RankGrade>
+      <RankID>193</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG07</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG07 - Civil Service</RankGrade>
+      <RankID>194</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG09</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG09 - Civil Service</RankGrade>
+      <RankID>195</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG10</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG10 - Civil Service</RankGrade>
+      <RankID>196</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG11</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG11 - Civil Service</RankGrade>
+      <RankID>197</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG12</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG12 - Civil Service</RankGrade>
+      <RankID>198</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG13</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG13 - Civil Service</RankGrade>
+      <RankID>199</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG14</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG14 - Civil Service</RankGrade>
+      <RankID>200</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GG</Service>
+      <Grade>GG15</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GG15 - Civil Service</RankGrade>
+      <RankID>201</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS02 - Civil Service</RankGrade>
+      <RankID>202</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS03 - Civil Service</RankGrade>
+      <RankID>203</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS04</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS04 - Civil Service</RankGrade>
+      <RankID>204</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS05</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS05 - Civil Service</RankGrade>
+      <RankID>205</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS06</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS06 - Civil Service</RankGrade>
+      <RankID>206</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS07</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS07 - Civil Service</RankGrade>
+      <RankID>207</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS08</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS08 - Civil Service</RankGrade>
+      <RankID>456</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS09</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS09 - Civil Service</RankGrade>
+      <RankID>208</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS10</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS10 - Civil Service</RankGrade>
+      <RankID>209</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS11</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS11 - Civil Service</RankGrade>
+      <RankID>210</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS12</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS12 - Civil Service</RankGrade>
+      <RankID>211</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS13</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS13 - Civil Service</RankGrade>
+      <RankID>212</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS14</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS14 - Civil Service</RankGrade>
+      <RankID>213</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - GS</Service>
+      <Grade>GS15</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>GS15 - Civil Service</RankGrade>
+      <RankID>214</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF01 - Civil Service</RankGrade>
+      <RankID>215</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF02 - Civil Service</RankGrade>
+      <RankID>216</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF03 - Civil Service</RankGrade>
+      <RankID>217</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF04</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF04 - Civil Service</RankGrade>
+      <RankID>218</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF05</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF05 - Civil Service</RankGrade>
+      <RankID>219</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF06</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF06 - Civil Service</RankGrade>
+      <RankID>220</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF07</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF07 - Civil Service</RankGrade>
+      <RankID>221</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF08</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF08 - Civil Service</RankGrade>
+      <RankID>222</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF09</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF09 - Civil Service</RankGrade>
+      <RankID>223</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF10</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF10 - Civil Service</RankGrade>
+      <RankID>224</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF11</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF11 - Civil Service</RankGrade>
+      <RankID>225</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF12</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF12 - Civil Service</RankGrade>
+      <RankID>226</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - NF</Service>
+      <Grade>NF13</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>NF13 - Civil Service</RankGrade>
+      <RankID>227</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - OTHER</Service>
+      <Grade>OTHER</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>OTHER - Civil Service</RankGrade>
+      <RankID>228</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES1</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES1 - Senior Executve Service</RankGrade>
+      <RankID>229</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES2</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES2 - Senior Executve Service</RankGrade>
+      <RankID>230</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES3</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES3 - Senior Executve Service</RankGrade>
+      <RankID>231</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES4</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES4 - Senior Executve Service</RankGrade>
+      <RankID>232</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES5</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES5 - Senior Executve Service</RankGrade>
+      <RankID>233</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - SES</Service>
+      <Grade>SES6</Grade>
+      <Rank>Senior Executve Service</Rank>
+      <RankGrade>SES6 - Senior Executve Service</RankGrade>
+      <RankID>234</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - TEMP</Service>
+      <Grade>TP</Grade>
+      <Rank>Temporary</Rank>
+      <RankGrade>TP - Temporary</RankGrade>
+      <RankID>235</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG02</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG02 - Wage Grade</RankGrade>
+      <RankID>236</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG03</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG03 - Wage Grade</RankGrade>
+      <RankID>237</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG04</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG04 - Wage Grade</RankGrade>
+      <RankID>238</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG05</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG05 - Wage Grade</RankGrade>
+      <RankID>239</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG06</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG06 - Wage Grade</RankGrade>
+      <RankID>240</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG07</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG07 - Wage Grade</RankGrade>
+      <RankID>241</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG09</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG09 - Wage Grade</RankGrade>
+      <RankID>242</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG10</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG10 - Wage Grade</RankGrade>
+      <RankID>243</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG11</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG11 - Wage Grade</RankGrade>
+      <RankID>244</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG12</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG12 - Wage Grade</RankGrade>
+      <RankID>245</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG13</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG13 - Wage Grade</RankGrade>
+      <RankID>246</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG14</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG14 - Wage Grade</RankGrade>
+      <RankID>247</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - WG</Service>
+      <Grade>WG15</Grade>
+      <Rank>Wage Grade</Rank>
+      <RankGrade>WG15 - Wage Grade</RankGrade>
+      <RankID>248</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YA01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YA01 - Civil Service</RankGrade>
+      <RankID>249</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YA02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YA02 - Civil Service</RankGrade>
+      <RankID>250</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YA03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YA03 - Civil Service</RankGrade>
+      <RankID>251</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YB01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YB01 - Civil Service</RankGrade>
+      <RankID>252</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YB02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YB02 - Civil Service</RankGrade>
+      <RankID>253</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YB03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YB03 - Civil Service</RankGrade>
+      <RankID>254</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YC01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YC01 - Civil Service</RankGrade>
+      <RankID>255</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YC02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YC02 - Civil Service</RankGrade>
+      <RankID>256</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YC03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YC03 - Civil Service</RankGrade>
+      <RankID>257</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YD01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YD01 - Civil Service</RankGrade>
+      <RankID>258</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YD02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YD02 - Civil Service</RankGrade>
+      <RankID>259</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YD03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YD03 - Civil Service</RankGrade>
+      <RankID>260</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YE01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YE01 - Civil Service</RankGrade>
+      <RankID>261</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YE02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YE02 - Civil Service</RankGrade>
+      <RankID>262</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YE03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YE03 - Civil Service</RankGrade>
+      <RankID>263</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YF01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YF01 - Civil Service</RankGrade>
+      <RankID>264</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YF02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YF02 - Civil Service</RankGrade>
+      <RankID>265</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YF03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YF03 - Civil Service</RankGrade>
+      <RankID>266</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YG01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YG01 - Civil Service</RankGrade>
+      <RankID>267</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YG02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YG02 - Civil Service</RankGrade>
+      <RankID>268</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YG03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YG03 - Civil Service</RankGrade>
+      <RankID>269</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YH01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YH01 - Civil Service</RankGrade>
+      <RankID>270</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YH02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YH02 - Civil Service</RankGrade>
+      <RankID>271</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YH03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YH03 - Civil Service</RankGrade>
+      <RankID>272</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YI01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YI01 - Civil Service</RankGrade>
+      <RankID>273</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YI02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YI02 - Civil Service</RankGrade>
+      <RankID>274</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YI03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YI03 - Civil Service</RankGrade>
+      <RankID>275</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YJ01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YJ01 - Civil Service</RankGrade>
+      <RankID>276</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YJ02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YJ02 - Civil Service</RankGrade>
+      <RankID>277</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YJ03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YJ03 - Civil Service</RankGrade>
+      <RankID>278</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YK01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YK01 - Civil Service</RankGrade>
+      <RankID>279</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YK02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YK02 - Civil Service</RankGrade>
+      <RankID>280</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YK03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YK03 - Civil Service</RankGrade>
+      <RankID>281</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YL01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YL01 - Civil Service</RankGrade>
+      <RankID>282</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YL02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YL02 - Civil Service</RankGrade>
+      <RankID>283</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YL03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YL03 - Civil Service</RankGrade>
+      <RankID>284</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YM01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YM01 - Civil Service</RankGrade>
+      <RankID>285</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YM02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YM02 - Civil Service</RankGrade>
+      <RankID>286</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YM03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YM03 - Civil Service</RankGrade>
+      <RankID>287</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YN01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YN01 - Civil Service</RankGrade>
+      <RankID>288</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YN02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YN02 - Civil Service</RankGrade>
+      <RankID>289</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YN03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YN03 - Civil Service</RankGrade>
+      <RankID>290</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YO01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YO01 - Civil Service</RankGrade>
+      <RankID>291</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YO02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YO02 - Civil Service</RankGrade>
+      <RankID>292</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YO03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YO03 - Civil Service</RankGrade>
+      <RankID>293</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YP01</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YP01 - Civil Service</RankGrade>
+      <RankID>294</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YP02</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YP02 - Civil Service</RankGrade>
+      <RankID>295</RankID>
+    </RankService>
+    <RankService>
+      <Service>DOD - Y*</Service>
+      <Grade>YP03</Grade>
+      <Rank>Civil Service</Rank>
+      <RankGrade>YP03 - Civil Service</RankGrade>
+      <RankID>296</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>AREA2SA</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>AREA2SA - Good Neighbor</RankGrade>
+      <RankID>297</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>CHAPLAIN</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>CHAPLAIN - Good Neighbor</RankGrade>
+      <RankID>298</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>CINC</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>CINC - Good Neighbor</RankGrade>
+      <RankID>299</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>DASSO</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>DASSO - Good Neighbor</RankGrade>
+      <RankID>300</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>DCofS</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>DCofS - Good Neighbor</RankGrade>
+      <RankID>301</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>DODIG</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>DODIG - Good Neighbor</RankGrade>
+      <RankID>302</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>FKCS</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>FKCS - Good Neighbor</RankGrade>
+      <RankID>303</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>FKDC-SA</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>FKDC-SA - Good Neighbor</RankGrade>
+      <RankID>304</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>FOB-K</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>FOB-K - Good Neighbor</RankGrade>
+      <RankID>305</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>PAO</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>PAO - Good Neighbor</RankGrade>
+      <RankID>306</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>PMJ-LE</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>PMJ-LE - Good Neighbor</RankGrade>
+      <RankID>307</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>PMO</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>PMO - Good Neighbor</RankGrade>
+      <RankID>308</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>PROTOCOL</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>PROTOCOL - Good Neighbor</RankGrade>
+      <RankID>309</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>SUSLAK</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>SUSLAK - Good Neighbor</RankGrade>
+      <RankID>310</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>UNCMAC</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>UNCMAC - Good Neighbor</RankGrade>
+      <RankID>311</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>USAE</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>USAE - Good Neighbor</RankGrade>
+      <RankID>312</RankID>
+    </RankService>
+    <RankService>
+      <Service>DV PASS</Service>
+      <Grade>USAREC</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>USAREC - Good Neighbor</RankGrade>
+      <RankID>313</RankID>
+    </RankService>
+    <RankService>
+      <Service>EMBASSY</Service>
+      <Grade>EMBASSY</Grade>
+      <Rank>Embassy</Rank>
+      <RankGrade>EMBASSY - Embassy</RankGrade>
+      <RankID>314</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>CONTR</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>CONTR - Contractor</RankGrade>
+      <RankID>315</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>DRIVER</Grade>
+      <Rank>Embassy Non-US Employee</Rank>
+      <RankGrade>DRIVER - Embassy Non-US Employee</RankGrade>
+      <RankID>316</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS01</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS01 - Korean GS</RankGrade>
+      <RankID>317</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS02</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS02 - Korean GS</RankGrade>
+      <RankID>318</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS03</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS03 - Korean GS</RankGrade>
+      <RankID>319</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS04</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS04 - Korean GS</RankGrade>
+      <RankID>320</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS05</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS05 - Korean GS</RankGrade>
+      <RankID>321</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS06</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS06 - Korean GS</RankGrade>
+      <RankID>322</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS07</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS07 - Korean GS</RankGrade>
+      <RankID>323</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS08</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS08 - Korean GS</RankGrade>
+      <RankID>324</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS09</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS09 - Korean GS</RankGrade>
+      <RankID>325</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS10</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS10 - Korean GS</RankGrade>
+      <RankID>326</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS11</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS11 - Korean GS</RankGrade>
+      <RankID>327</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS12</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS12 - Korean GS</RankGrade>
+      <RankID>328</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS13</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS13 - Korean GS</RankGrade>
+      <RankID>329</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS14</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS14 - Korean GS</RankGrade>
+      <RankID>330</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KGS15</Grade>
+      <Rank>Korean GS</Rank>
+      <RankGrade>KGS15 - Korean GS</RankGrade>
+      <RankID>331</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB01</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB01 - Korean WB</RankGrade>
+      <RankID>332</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB02</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB02 - Korean WB</RankGrade>
+      <RankID>333</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB03</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB03 - Korean WB</RankGrade>
+      <RankID>334</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB04</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB04 - Korean WB</RankGrade>
+      <RankID>335</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB05</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB05 - Korean WB</RankGrade>
+      <RankID>336</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB06</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB06 - Korean WB</RankGrade>
+      <RankID>337</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB07</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB07 - Korean WB</RankGrade>
+      <RankID>338</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB08</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB08 - Korean WB</RankGrade>
+      <RankID>339</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB09</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB09 - Korean WB</RankGrade>
+      <RankID>340</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB10</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB10 - Korean WB</RankGrade>
+      <RankID>341</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB11</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB11 - Korean WB</RankGrade>
+      <RankID>342</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB12</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB12 - Korean WB</RankGrade>
+      <RankID>343</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB13</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB13 - Korean WB</RankGrade>
+      <RankID>344</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB14</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB14 - Korean WB</RankGrade>
+      <RankID>345</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>KWB15</Grade>
+      <Rank>Korean WB</Rank>
+      <RankGrade>KWB15 - Korean WB</RankGrade>
+      <RankID>346</RankID>
+    </RankService>
+    <RankService>
+      <Service>FN CIV</Service>
+      <Grade>OTHER</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>OTHER - Good Neighbor</RankGrade>
+      <RankID>347</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>AUSA</Grade>
+      <Rank>Associated to USA</Rank>
+      <RankGrade>AUSA - Associated to USA</RankGrade>
+      <RankID>348</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>FOC</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>FOC - Good Neighbor</RankGrade>
+      <RankID>349</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>GUEST</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>GUEST - Guest</RankGrade>
+      <RankID>350</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>HCM</Grade>
+      <Rank>Club Member</Rank>
+      <RankGrade>HCM - Club Member</RankGrade>
+      <RankID>351</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>KAPA</Grade>
+      <Rank>Good Neighbor</Rank>
+      <RankGrade>KAPA - Good Neighbor</RankGrade>
+      <RankID>352</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>PARENT</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>PARENT - Guest</RankGrade>
+      <RankID>353</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>PTP</Grade>
+      <Rank>People to People</Rank>
+      <RankGrade>PTP - People to People</RankGrade>
+      <RankID>354</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>STUDENT</Grade>
+      <Rank>Guest</Rank>
+      <RankGrade>STUDENT - Guest</RankGrade>
+      <RankID>355</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>VISITOR</Grade>
+      <Rank>Temporary Visitor Pass</Rank>
+      <RankGrade>VISITOR - Temporary Visitor Pass</RankGrade>
+      <RankID>356</RankID>
+    </RankService>
+    <RankService>
+      <Service>GUEST</Service>
+      <Grade>VOL</Grade>
+      <Rank>Volunteer</Rank>
+      <RankGrade>VOL - Volunteer</RankGrade>
+      <RankID>357</RankID>
+    </RankService>
+    <RankService>
+      <Service>KOLSAN-DONG</Service>
+      <Grade>RESIDENT</Grade>
+      <Rank>Kolsan-Dong Resident</Rank>
+      <RankGrade>RESIDENT - Kolsan-Dong Resident</RankGrade>
+      <RankID>358</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E01</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E01 - Junior Enlisted</RankGrade>
+      <RankID>359</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E01</Grade>
+      <Rank>Private (no insignia)</Rank>
+      <RankGrade>E01 - Private (no insignia)</RankGrade>
+      <RankID>360</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E02</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E02 - Junior Enlisted</RankGrade>
+      <RankID>361</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E02</Grade>
+      <Rank>Private First Class</Rank>
+      <RankGrade>E02 - Private First Class</RankGrade>
+      <RankID>362</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E03</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E03 - Junior Enlisted</RankGrade>
+      <RankID>363</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E03</Grade>
+      <Rank>Lance Corporal</Rank>
+      <RankGrade>E03 - Lance Corporal</RankGrade>
+      <RankID>364</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E04</Grade>
+      <Rank>Corporal</Rank>
+      <RankGrade>E04 - Corporal</RankGrade>
+      <RankID>365</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E05</Grade>
+      <Rank>Sergeant</Rank>
+      <RankGrade>E05 - Sergeant</RankGrade>
+      <RankID>366</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E06</Grade>
+      <Rank>Staff Sergeant</Rank>
+      <RankGrade>E06 - Staff Sergeant</RankGrade>
+      <RankID>367</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E07</Grade>
+      <Rank>Gunnery Sergeant</Rank>
+      <RankGrade>E07 - Gunnery Sergeant</RankGrade>
+      <RankID>368</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E08</Grade>
+      <Rank>First Sergeant</Rank>
+      <RankGrade>E08 - First Sergeant</RankGrade>
+      <RankID>369</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E08</Grade>
+      <Rank>Master Sergeant</Rank>
+      <RankGrade>E08 - Master Sergeant</RankGrade>
+      <RankID>370</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E09</Grade>
+      <Rank>Master Gunnery Sergeant</Rank>
+      <RankGrade>E09 - Master Gunnery Sergeant</RankGrade>
+      <RankID>371</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E09</Grade>
+      <Rank>Sergeant Major</Rank>
+      <RankGrade>E09 - Sergeant Major</RankGrade>
+      <RankID>372</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>E09</Grade>
+      <Rank>Sergeant Major of the Marine Corps</Rank>
+      <RankGrade>E09 - Sergeant Major of the Marine Corps</RankGrade>
+      <RankID>373</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>N/A</Grade>
+      <Rank>Platoon Leader</Rank>
+      <RankGrade>N/A - Platoon Leader</RankGrade>
+      <RankID>374</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O01</Grade>
+      <Rank>Second Lieutenant</Rank>
+      <RankGrade>O01 - Second Lieutenant</RankGrade>
+      <RankID>375</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O02</Grade>
+      <Rank>First Lieutenant</Rank>
+      <RankGrade>O02 - First Lieutenant</RankGrade>
+      <RankID>376</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O03</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O03 - Captain</RankGrade>
+      <RankID>377</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O04</Grade>
+      <Rank>Major</Rank>
+      <RankGrade>O04 - Major</RankGrade>
+      <RankID>378</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O05</Grade>
+      <Rank>Lieutenant Colonel</Rank>
+      <RankGrade>O05 - Lieutenant Colonel</RankGrade>
+      <RankID>379</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O06</Grade>
+      <Rank>Colonel</Rank>
+      <RankGrade>O06 - Colonel</RankGrade>
+      <RankID>380</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O07</Grade>
+      <Rank>Brigadier General</Rank>
+      <RankGrade>O07 - Brigadier General</RankGrade>
+      <RankID>381</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O08</Grade>
+      <Rank>Major General</Rank>
+      <RankGrade>O08 - Major General</RankGrade>
+      <RankID>382</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O09</Grade>
+      <Rank>Lieutenant General</Rank>
+      <RankGrade>O09 - Lieutenant General</RankGrade>
+      <RankID>383</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>O10</Grade>
+      <Rank>General</Rank>
+      <RankGrade>O10 - General</RankGrade>
+      <RankID>384</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>W01</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>W01 - Warrant Officer</RankGrade>
+      <RankID>385</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>W02</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W02 - Chief Warrant Officer</RankGrade>
+      <RankID>386</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>W03</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W03 - Chief Warrant Officer</RankGrade>
+      <RankID>387</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>W04</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W04 - Chief Warrant Officer</RankGrade>
+      <RankID>388</RankID>
+    </RankService>
+    <RankService>
+      <Service>MARINE CORPS</Service>
+      <Grade>W05</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W05 - Chief Warrant Officer</RankGrade>
+      <RankID>389</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND1</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND1 - ROK Government Officer</RankGrade>
+      <RankID>390</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND10</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND10 - ROK Government Officer</RankGrade>
+      <RankID>391</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND2</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND2 - ROK Government Officer</RankGrade>
+      <RankID>392</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND3</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND3 - ROK Government Officer</RankGrade>
+      <RankID>393</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND4</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND4 - ROK Government Officer</RankGrade>
+      <RankID>394</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND5</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND5 - ROK Government Officer</RankGrade>
+      <RankID>395</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND6</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND6 - ROK Government Officer</RankGrade>
+      <RankID>396</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND7</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND7 - ROK Government Officer</RankGrade>
+      <RankID>397</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND8</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND8 - ROK Government Officer</RankGrade>
+      <RankID>398</RankID>
+    </RankService>
+    <RankService>
+      <Service>MND</Service>
+      <Grade>MND9</Grade>
+      <Rank>ROK Government Officer</Rank>
+      <RankGrade>MND9 - ROK Government Officer</RankGrade>
+      <RankID>399</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>C01</Grade>
+      <Rank>Aviation Officer Candidate</Rank>
+      <RankGrade>C01 - Aviation Officer Candidate</RankGrade>
+      <RankID>400</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>C01</Grade>
+      <Rank>Midshipman</Rank>
+      <RankGrade>C01 - Midshipman</RankGrade>
+      <RankID>401</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>C01</Grade>
+      <Rank>Officer Candidate</Rank>
+      <RankGrade>C01 - Officer Candidate</RankGrade>
+      <RankID>402</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>C01</Grade>
+      <Rank>Reserve Officer Training Corps</Rank>
+      <RankGrade>C01 - Reserve Officer Training Corps</RankGrade>
+      <RankID>403</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E01</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E01 - Junior Enlisted</RankGrade>
+      <RankID>404</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E01</Grade>
+      <Rank>Seaman Recruit</Rank>
+      <RankGrade>E01 - Seaman Recruit</RankGrade>
+      <RankID>405</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E02</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E02 - Junior Enlisted</RankGrade>
+      <RankID>406</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E02</Grade>
+      <Rank>Seaman Apprentice</Rank>
+      <RankGrade>E02 - Seaman Apprentice</RankGrade>
+      <RankID>407</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E03</Grade>
+      <Rank>Junior Enlisted</Rank>
+      <RankGrade>E03 - Junior Enlisted</RankGrade>
+      <RankID>408</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E03</Grade>
+      <Rank>Seaman</Rank>
+      <RankGrade>E03 - Seaman</RankGrade>
+      <RankID>409</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E04</Grade>
+      <Rank>Petty Officer Third Class</Rank>
+      <RankGrade>E04 - Petty Officer Third Class</RankGrade>
+      <RankID>410</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E05</Grade>
+      <Rank>Petty Officer Second Class</Rank>
+      <RankGrade>E05 - Petty Officer Second Class</RankGrade>
+      <RankID>411</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E06</Grade>
+      <Rank>Petty Officer First Class</Rank>
+      <RankGrade>E06 - Petty Officer First Class</RankGrade>
+      <RankID>412</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E07</Grade>
+      <Rank>Chief Petty Officer</Rank>
+      <RankGrade>E07 - Chief Petty Officer</RankGrade>
+      <RankID>413</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E08</Grade>
+      <Rank>Senior Chief Petty Officer</Rank>
+      <RankGrade>E08 - Senior Chief Petty Officer</RankGrade>
+      <RankID>414</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E09</Grade>
+      <Rank>Master Chief Petty Officer</Rank>
+      <RankGrade>E09 - Master Chief Petty Officer</RankGrade>
+      <RankID>415</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>E09</Grade>
+      <Rank>Master Chief Petty Officer of the Navy</Rank>
+      <RankGrade>E09 - Master Chief Petty Officer of the Navy</RankGrade>
+      <RankID>416</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O01</Grade>
+      <Rank>Ensign</Rank>
+      <RankGrade>O01 - Ensign</RankGrade>
+      <RankID>417</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O02</Grade>
+      <Rank>Lieutenant Junior Grade</Rank>
+      <RankGrade>O02 - Lieutenant Junior Grade</RankGrade>
+      <RankID>418</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O03</Grade>
+      <Rank>Lieutenant</Rank>
+      <RankGrade>O03 - Lieutenant</RankGrade>
+      <RankID>419</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O04</Grade>
+      <Rank>Lieutenant Commander</Rank>
+      <RankGrade>O04 - Lieutenant Commander</RankGrade>
+      <RankID>420</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O05</Grade>
+      <Rank>Commander</Rank>
+      <RankGrade>O05 - Commander</RankGrade>
+      <RankID>421</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O06</Grade>
+      <Rank>Captain</Rank>
+      <RankGrade>O06 - Captain</RankGrade>
+      <RankID>422</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O07</Grade>
+      <Rank>Rear Admiral</Rank>
+      <RankGrade>O07 - Rear Admiral</RankGrade>
+      <RankID>423</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O08</Grade>
+      <Rank>Rear Admiral</Rank>
+      <RankGrade>O08 - Rear Admiral</RankGrade>
+      <RankID>424</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O09</Grade>
+      <Rank>Vice Admiral</Rank>
+      <RankGrade>O09 - Vice Admiral</RankGrade>
+      <RankID>425</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>O10</Grade>
+      <Rank>Admiral</Rank>
+      <RankGrade>O10 - Admiral</RankGrade>
+      <RankID>426</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>W01</Grade>
+      <Rank>Warrant Officer</Rank>
+      <RankGrade>W01 - Warrant Officer</RankGrade>
+      <RankID>427</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>W02</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W02 - Chief Warrant Officer</RankGrade>
+      <RankID>428</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>W03</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W03 - Chief Warrant Officer</RankGrade>
+      <RankID>429</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>W04</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W04 - Chief Warrant Officer</RankGrade>
+      <RankID>430</RankID>
+    </RankService>
+    <RankService>
+      <Service>NAVY</Service>
+      <Grade>W05</Grade>
+      <Rank>Chief Warrant Officer</Rank>
+      <RankGrade>W05 - Chief Warrant Officer</RankGrade>
+      <RankID>431</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE01</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE01 - Contractor</RankGrade>
+      <RankID>432</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE02</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE02 - Contractor</RankGrade>
+      <RankID>433</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE03</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE03 - Contractor</RankGrade>
+      <RankID>434</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE04</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE04 - Contractor</RankGrade>
+      <RankID>435</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE05</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE05 - Contractor</RankGrade>
+      <RankID>436</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE06</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE06 - Contractor</RankGrade>
+      <RankID>437</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE07</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE07 - Contractor</RankGrade>
+      <RankID>438</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE08</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE08 - Contractor</RankGrade>
+      <RankID>439</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE09</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE09 - Contractor</RankGrade>
+      <RankID>440</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE10</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE10 - Contractor</RankGrade>
+      <RankID>441</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE11</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE11 - Contractor</RankGrade>
+      <RankID>442</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE12</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE12 - Contractor</RankGrade>
+      <RankID>443</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE13</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE13 - Contractor</RankGrade>
+      <RankID>444</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE14</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE14 - Contractor</RankGrade>
+      <RankID>445</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>GSE15</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>GSE15 - Contractor</RankGrade>
+      <RankID>446</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>IC</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>IC - Contractor</RankGrade>
+      <RankID>447</RankID>
+    </RankService>
+    <RankService>
+      <Service>OTHER US CIV</Service>
+      <Grade>OTHR</Grade>
+      <Rank>Contractor</Rank>
+      <RankGrade>OTHR - Contractor</RankGrade>
+      <RankID>448</RankID>
+    </RankService>
+    <RankService>
+      <Service>PERS HIRE</Service>
+      <Grade>P/HIRE</Grade>
+      <Rank>Personal Hire</Rank>
+      <RankGrade>P/HIRE - Personal Hire</RankGrade>
+      <RankID>449</RankID>
+    </RankService>
+    <RankService>
+      <Service>ROK LE</Service>
+      <Grade>CUSTOM</Grade>
+      <Rank>ROK LE</Rank>
+      <RankGrade>CUSTOM - ROK LE</RankGrade>
+      <RankID>450</RankID>
+    </RankService>
+    <RankService>
+      <Service>ROK LE</Service>
+      <Grade>KNP</Grade>
+      <Rank>ROK LE</Rank>
+      <RankGrade>KNP - ROK LE</RankGrade>
+      <RankID>451</RankID>
+    </RankService>
+    <RankService>
+      <Service>ROK LE</Service>
+      <Grade>NIS</Grade>
+      <Rank>ROK LE</Rank>
+      <RankGrade>NIS - ROK LE</RankGrade>
+      <RankID>452</RankID>
+    </RankService>
+    <RankService>
+      <Service>ROK LE</Service>
+      <Grade>ROKG</Grade>
+      <Rank>ROK LE</Rank>
+      <RankGrade>ROKG - ROK LE</RankGrade>
+      <RankID>453</RankID>
+    </RankService>
+    <RankService>
+      <Service>SHORT TERM</Service>
+      <Grade>FAMILY</Grade>
+      <Rank>Short Term Visitor - Family</Rank>
+      <RankGrade>FAMILY - Short Term Visitor - Family</RankGrade>
+      <RankID>454</RankID>
+    </RankService>
+    <RankService>
+      <Service>SHORT TERM</Service>
+      <Grade>OFFICIAL</Grade>
+      <Rank>Short Term Visitor - Official</Rank>
+      <RankGrade>OFFICIAL - Short Term Visitor - Official</RankGrade>
+      <RankID>455</RankID>
+    </RankService>
+    <RankService>
+      <Service>KSG</Service>
+      <Grade>CIV</Grade>
+      <Rank>SECURITY GUARD</Rank>
+      <RankGrade>CIV - SECURITY GUARD</RankGrade>
+      <RankID>466</RankID>
+    </RankService>
+  </RankOptions>
+</RankServiceOptions>

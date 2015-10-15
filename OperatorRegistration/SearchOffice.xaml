@@ -1,0 +1,218 @@
+﻿<Window x:Class="OperatorRegistration.SearchOffice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SearchOffice" Height="500" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+
+    <Window.Resources>
+        <!-- Button -->
+        <Style x:Key="SOBtnStyle" BasedOn="{StaticResource BtnStyle}" TargetType="Button">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform  ScaleX="1.2" ScaleY="1.2" CenterX="25" CenterY="25" />
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Foreground" Value="DarkOrange" />
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Foreground" Value="DarkGoldenrod" />
+            <Setter Property="Width" Value="60" />
+            <Setter Property="Margin" Value="5,0,5,0" />
+            <Setter Property="RenderTransformOrigin" Value="0.5, 0" />
+        </Style>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="4*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Form Header Label -->
+        <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Fill="{StaticResource Top}" />
+        <Image Source="common\images\office.png" HorizontalAlignment="Left" Margin="5"></Image>
+        <Label Content="Search Office" Grid.Row="0" Grid.Column="1" Style="{StaticResource lblTitle}" Foreground="White" Margin="80,0,0,0"/>
+
+        <!-- ListBox to Show the Office Name -->
+        <GroupBox Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Style="{StaticResource GroupBoxStyle}" Foreground="DarkGoldenrod" Header="Search Result" HeaderTemplate="{StaticResource GroupHeaderTemplate}">
+            <Grid  Name="gdSearchResult">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="13*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0">
+                        <RadioButton Name="rdbSOShowAll" Content="Show All" GroupName="gpnOfficeList" Click="rdbSOShowAll_Click" />
+                        <RadioButton Name="rdbSOSearchByUnit" Content="By Unit" GroupName="gpnOfficeList" Margin="20,0,0,0" Click="rdbSOSearchByUnit_Click" />
+                        <RadioButton Name="rdbSOSearchByName" Content="By Office" GroupName="gpnOfficeList" Margin="20,0,0,0" Click="rdbSOSearchByName_Click" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5,0,0,0">
+                        <TextBox Name="txtSONameSearch" Width="195" Style="{StaticResource skyColorTxtStyle}" MaxLength="30" KeyUp="txtBoxKey_Down" />
+                        <Button Name="btnSONameSearch" Style="{StaticResource SOBtnStyle}" Width="25" Margin="5,0,0,0" Click="btnSONameSearch_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/OperatorRegistration;component/Common/images/searchicon.png" />
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="1" Margin="5" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="12*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <ListBox Grid.Column="0" Name="lbxOfficeName" Style="{StaticResource skyColorLbxStyle}" MouseDoubleClick="lbxOfficeName_MouseDoubleClick" MouseEnter="lbxOfficeName_MouseEnter" />
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Center" Name="spSOLabelSelector" >
+                        <Label Content="#" Name="lblSONumber" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="A" Name="lblSOA" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="B" Name="lblSOB" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="C" Name="lblSOC" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="D" Name="lblSOD" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="E" Name="lblSOE" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="F" Name="lblSOF" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="G" Name="lblSOG" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="H" Name="lblSOH" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="I" Name="lblSOI" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="J" Name="lblSOJ" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="K" Name="lblSOK" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="L" Name="lblSOL" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="M" Name="lblSOM" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="N" Name="lblSON" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="O" Name="lblSOO" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="P" Name="lblSOP" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="Q" Name="lblSOQ" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="R" Name="lblSOR" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="S" Name="lblSOS" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="T" Name="lblSOT" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="U" Name="lblSOU" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="V" Name="lblSOV" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="W" Name="lblSOW" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="X" Name="lblSOX" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="Y" Name="lblSOY" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                        <Label Content="Z" Name="lblSOZ" Style="{StaticResource Selector}" MouseEnter="lblSOZ_MouseEnter" MouseLeave="lblSOZ_MouseLeave" MouseDoubleClick="lblSOZ_MouseDoubleClick" FontFamily="Lucida Console" />
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </GroupBox>
+
+        <!-- Installation Information -->
+        <GroupBox Grid.Row="1" Grid.Column="1" Style="{StaticResource GroupBoxStyle}" Foreground="DarkBlue" Header="Installation Information" HeaderTemplate="{StaticResource GroupHeaderTemplate}">
+            <Grid Name="gdInstallationInformation">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+                <Label Content="Installation" FontWeight="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Content="Code" FontWeight="Bold" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" />
+                <Label Content="Area" FontWeight="Bold" Grid.Row="1" Grid.Column="0" />
+                <Label Content="City" FontWeight="Bold" Grid.Row="2" Grid.Column="0" />
+
+                <ComboBox Name="cbxInstallationName" Grid.Row="0" Grid.Column="1" Style="{StaticResource skyColorCbxStyle}" SelectionChanged="cbxInstallationName_SelectionChanged" />
+                <TextBlock Name="txbInstallationCode" Grid.Row="0" Grid.Column="3" Style="{StaticResource skyColorTxbStyle}" Width="30" TextAlignment="Center" HorizontalAlignment="Left" />
+                <TextBlock Name="txbArea" Grid.Row="1" Grid.Column="1" Style="{StaticResource skyColorTxbStyle}" />
+                <TextBlock Name="txbCity" Grid.Row="2" Grid.Column="1" Style="{StaticResource skyColorTxbStyle}" />
+            </Grid>
+        </GroupBox>
+
+        <!-- Unit Information -->
+        <GroupBox Grid.Row="2" Grid.Column="1" Style="{StaticResource GroupBoxStyle}" Foreground="DarkCyan" Header="Unit Information" HeaderTemplate="{StaticResource GroupHeaderTemplate}">
+            <Grid  Name="gdUnitInformation">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+                <Label Content="Unit Name" FontWeight="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Content="Unit Phone" FontWeight="Bold" Grid.Row="1" Grid.Column="0" />
+                <Label Content="UIC" FontWeight="Bold" Grid.Row="2" Grid.Column="0" />
+                <Label Content="APO/AP" FontWeight="Bold" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" />
+
+                <TextBlock Name="txbUnitName" Grid.Row="0" Grid.Column="1" Style="{StaticResource skyColorTxbStyle}"/>
+                <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <!--<Button Content="Delete" Name="btnDeleteUnitInformation" Style="{StaticResource SOBtnStyle}" Width="40" />-->
+                </StackPanel>
+                <TextBlock Name="txbUIC" Grid.Row="2" Grid.Column="1" Style="{StaticResource skyColorTxbStyle}"/>
+                <StackPanel Name="spnUnitPhone" Orientation="Horizontal" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1">
+                    <TextBlock Name="txbUnitPhonePrefix" Width="35" Style="{StaticResource skyColorTxbStyle}" />
+                    <Label Content="-" />
+                    <TextBlock Name="txbUnitPhoneNumber" Width="35" Style="{StaticResource skyColorTxbStyle}" />
+                </StackPanel>
+                <StackPanel Name="spnUnitApoAp" Orientation="Horizontal" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3">
+                    <TextBlock Name="txbUnitAPO" Width="40" Style="{StaticResource skyColorTxbStyle}" />
+                    <Label Content="/" />
+                    <TextBlock Name="txbUnitAP" Width="35" Style="{StaticResource skyColorTxbStyle}" />
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+
+        <!-- Office Information -->
+        <GroupBox Grid.Row="3" Grid.Column="1" Style="{StaticResource GroupBoxStyle}" Foreground="DarkGreen" Header="Office Information" HeaderTemplate="{StaticResource GroupHeaderTemplate}">
+            <Grid Name="gdOfficeInformation">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Office Name" FontWeight="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Content="Office Code" FontWeight="Bold" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right"  />
+                <Label Content="Building Name" FontWeight="Bold" Grid.Row="1" Grid.Column="0" />
+                <Label Content="Building No" FontWeight="Bold" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right" />
+                <Label Content="Room No" FontWeight="Bold" Grid.Row="2" Grid.Column="0" />
+                <TextBlock Grid.Row="0" Grid.Column="1" Name="txtOfficeName" Style="{StaticResource skyColorTxbStyle}" />
+                <TextBlock Grid.Row="0" Grid.Column="3" Name="txbOfficeCode" Style="{StaticResource skyColorTxbStyle}" />
+                <TextBlock Grid.Row="1" Grid.Column="1" Name="txtBuildingName" Style="{StaticResource skyColorTxbStyle}" />
+                <TextBlock Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left" Name="txtBuildingNo" Style="{StaticResource skyColorTxbStyle}" Width="50" />
+                <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Name="txtRoomNo" Style="{StaticResource skyColorTxbStyle}" Width="30" />
+                <StackPanel Grid.Row="2" Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <!--<Button Content="Insert" Name="btnInsertOfficeInformation" Style="{StaticResource SOBtnStyle}" Width="40" />
+                    <Button Content="Delete" Name="btnDeleteOfficeInformation" Style="{StaticResource SOBtnStyle}" Width="40" />-->
+                    <Button Content="Clear" Name="btnClearOfficeInformation" Style="{StaticResource SOBtnStyle}" Width="40" Click="btnClearOfficeInformation_Click" />
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0">
+            <Button Name="btnSOSelect" Content="Select" Style="{StaticResource SOBtnStyle}" Click="btnSOSelect_Click" />
+            <Button Name="btnSOClose" Content="Close" Style="{StaticResource SOBtnStyle}" Click="btnSOClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

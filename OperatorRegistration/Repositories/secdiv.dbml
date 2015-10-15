@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="secdiv" Class="secdivDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DEVSERVER\DBIDSOPER;Initial Catalog=secdiv;User ID=security" SettingsObjectName="OperatorRegistration.Properties.Settings" SettingsPropertyName="secdivConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Attachement" Member="Attachements">
+    <Type Name="Attachement">
+      <Column Name="AttachementNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SysFileName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DownloadCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserFileName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="AttachmentIsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OrderNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Board_Attachement" Member="Board" ThisKey="BoardNo" OtherKey="BoardNo" Type="Board" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ZipCode" Member="ZipCodes">
+    <Type Name="ZipCode">
+      <Column Name="Seq" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ZipCode" Member="ZipCode1" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="SiDo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="GuGun" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dong" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Bunji" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AutomatedSystem" Member="AutomatedSystems">
+    <Type Name="AutomatedSystem">
+      <Column Name="SystemSerialNo" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SystemName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="InstalledDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SystemIPAddress" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="SystemManager" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeCode" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="SystemStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="AutomatedSystem_SystemTroubleCall" Member="SystemTroubleCalls" ThisKey="SystemSerialNo" OtherKey="SystemSerialNo" Type="SystemTroubleCall" />
+      <Association Name="NetworkInformation_AutomatedSystem" Member="NetworkInformation" ThisKey="SystemIPAddress" OtherKey="SystemIPAddress" Type="NetworkInformation" IsForeignKey="true" />
+      <Association Name="Person_AutomatedSystem" Member="Person" ThisKey="SystemManager" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="TypeOfAutomatedSystem_AutomatedSystem" Member="TypeOfAutomatedSystem" ThisKey="TypeCode" OtherKey="TypeCode" Type="TypeOfAutomatedSystem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Board" Member="Boards">
+    <Type Name="Board">
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BOARDTitle" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="BOARDRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BOARDContent" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="BOARDPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="BOARDType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDReadCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDisDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BOARDStep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDDepth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDGroupNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="BoardWriterName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDLastUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDPriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Association Name="Board_Attachement" Member="Attachements" ThisKey="BoardNo" OtherKey="BoardNo" Type="Attachement" />
+      <Association Name="Board_Comment" Member="Comments" ThisKey="BoardNo" OtherKey="BoardNo" Type="Comment" />
+      <Association Name="PartsOfDBID_Board" Member="PartsOfDBID" ThisKey="BOARDPartCode" OtherKey="PartCode" Type="PartsOfDBID" IsForeignKey="true" />
+      <Association Name="UserAccount_Board" Member="UserAccount" ThisKey="BOARDWriter" OtherKey="UserName" Type="UserAccount" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CertificateHistory" Member="CertificateHistories">
+    <Type Name="CertificateHistory">
+      <Column Name="CertificateControlNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HistoryDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateIssuedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CertificateHistoryRemarks" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Association Name="DbidsCertificate_CertificateHistory" Member="DbidsCertificate" ThisKey="CertificateNo" OtherKey="CertificateNo" Type="DbidsCertificate" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Comment" Member="Comments">
+    <Type Name="Comment">
+      <Column Name="CommentNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="COMMENTContent" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="COMMENTRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="COMMENTWriterName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="COMMENTWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COMMENTISDELETED" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="Board_Comment" Member="Board" ThisKey="BoardNo" OtherKey="BoardNo" Type="Board" IsForeignKey="true" />
+      <Association Name="UserAccount_Comment" Member="UserAccount" ThisKey="COMMENTWriter" OtherKey="UserName" Type="UserAccount" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DbidsCertificate" Member="DbidsCertificates">
+    <Type Name="DbidsCertificate">
+      <Column Name="CertificateNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CertificateRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OperatorPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="CertificateRemarks" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="CertificateUpdatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="DbidsCertificate_CertificateHistory" Member="CertificateHistories" ThisKey="CertificateNo" OtherKey="CertificateNo" Type="CertificateHistory" />
+      <Association Name="DbidsOperator_DbidsCertificate" Member="DbidsOperator" ThisKey="OperatorPID" OtherKey="PID" Type="DbidsOperator" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DbidsOperator" Member="DbidsOperators">
+    <Type Name="DbidsOperator">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OperatorType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="IsTrainer" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastTrainedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="DbidsOperator_DbidsCertificate" Member="DbidsCertificates" ThisKey="PID" OtherKey="OperatorPID" Type="DbidsCertificate" />
+      <Association Name="DbidsOperator_TrainingHistory" Member="TrainingHistories" ThisKey="PID" OtherKey="Nominator" Type="TrainingHistory" />
+      <Association Name="DbidsOperator_TrainingHistory1" Member="TrainingHistories1" ThisKey="PID" OtherKey="Trainee" Type="TrainingHistory" />
+      <Association Name="DbidsOperator_TrainingHistory2" Member="TrainingHistories2" ThisKey="PID" OtherKey="Trainer" Type="TrainingHistory" />
+      <Association Name="Person_DbidsOperator" Member="Person" ThisKey="PID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExaminationPool" Member="ExaminationPools">
+    <Type Name="ExaminationPool">
+      <Column Name="ExaminationNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ExaminationQuestion" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ExaminationPhoto" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Answer1" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="RightAnswer" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Answer2" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer3" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer4" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer5" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="IsAnswerMoreThan5" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EXAMPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="ExaminationType" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ExaminationStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="ExaminationPool_ExtendedAnswer" Member="ExtendedAnswer" ThisKey="ExaminationNo" OtherKey="EXTENDEDANSWERNO" Type="ExtendedAnswer" Cardinality="One" />
+      <Association Name="PartsOfDBID_ExaminationPool" Member="PartsOfDBID" ThisKey="EXAMPartCode" OtherKey="PartCode" Type="PartsOfDBID" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExtendedAnswer" Member="ExtendedAnswers">
+    <Type Name="ExtendedAnswer">
+      <Column Name="Answer6" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer7" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer8" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer9" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer10" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="EXTENDEDANSWERNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="ExaminationPool_ExtendedAnswer" Member="ExaminationPool" ThisKey="EXTENDEDANSWERNO" OtherKey="ExaminationNo" Type="ExaminationPool" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FamilyInfo" Member="FamilyInfos">
+    <Type Name="FamilyInfo">
+      <Column Name="SponsoredPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="FamilyRelationship" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DOB" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Person_FamilyInfo" Member="Person" ThisKey="SponsoredPID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FAQ" Member="FAQs">
+    <Type Name="FAQ">
+      <Column Name="FAQNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FAQQuestion" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="FAQAnswer" Type="System.String" DbType="VarChar(4000)" CanBeNull="true" />
+      <Column Name="FAQDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FAQAccessNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FAQType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FAQPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="FAQWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="FAQIsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="PartsOfDBID_FAQ" Member="PartsOfDBID" ThisKey="FAQPartCode" OtherKey="PartCode" Type="PartsOfDBID" IsForeignKey="true" />
+      <Association Name="UserAccount_FAQ" Member="UserAccount" ThisKey="FAQWriter" OtherKey="UserName" Type="UserAccount" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCHolder" Member="GPCHolders">
+    <Type Name="GPCHolder">
+      <Column Name="GPCHolderPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCHolderType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="GPCNumber" Type="System.String" DbType="VarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCSingleLimit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCMonthlyLimit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCSTATUS" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="GPCHolder_GPCLog" Member="GPCLogs" ThisKey="GPCNumber" OtherKey="GPCNumber" Type="GPCLog" />
+      <Association Name="GPCHolder_GPCLog1" Member="GPCLogs1" ThisKey="GPCNumber" OtherKey="GPCNumber" Type="GPCLog" />
+      <Association Name="Person_GPCHolder" Member="Person" ThisKey="GPCHolderPID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCLog" Member="GPCLogs">
+    <Type Name="GPCLog">
+      <Column Name="GPCDocumentCode" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCRequestedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCReceivedPerson" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="GPCRequestedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCSourceCompanyRegisteredNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GPCLogDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="GPCRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="GPCNumber" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Association Name="GPCLog_GPCRequestItem" Member="GPCRequestItems" ThisKey="GPCDocumentCode" OtherKey="GPCDocumentCode" Type="GPCRequestItem" />
+      <Association Name="GPCHolder_GPCLog" Member="GPCHolder" ThisKey="GPCNumber" OtherKey="GPCNumber" Type="GPCHolder" IsForeignKey="true" />
+      <Association Name="GPCHolder_GPCLog1" Member="GPCHolder1" ThisKey="GPCNumber" OtherKey="GPCNumber" Type="GPCHolder" IsForeignKey="true" />
+      <Association Name="GPCSourceCompany_GPCLog" Member="GPCSourceCompany" ThisKey="GPCSourceCompanyRegisteredNo" OtherKey="GPCSourceCompanyRegisteredNo" Type="GPCSourceCompany" IsForeignKey="true" />
+      <Association Name="Person_GPCLog" Member="Person" ThisKey="GPCRequestedPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_GPCLog1" Member="Person1" ThisKey="GPCReceivedPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCRequestItems" Member="GPCRequestItems">
+    <Type Name="GPCRequestItem">
+      <Column Name="GPCDocumentCode" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCRequestItemNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCItemQuantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCItemTotalPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCItemCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="GPCLog_GPCRequestItem" Member="GPCLog" ThisKey="GPCDocumentCode" OtherKey="GPCDocumentCode" Type="GPCLog" IsForeignKey="true" />
+      <Association Name="ItemClassfiedList_GPCRequestItem" Member="ItemClassfiedList" ThisKey="GPCItemCode" OtherKey="ItemCode" Type="ItemClassfiedList" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCSourceCompany" Member="GPCSourceCompanies">
+    <Type Name="GPCSourceCompany">
+      <Column Name="GPCSourceCompanyRegisteredNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SourceCompanyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SourceCompanyPOC" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+      <Column Name="SourceCompanyPhone" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="SourceCompanyZipCode" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="SourceCompanyAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SourceCompanyDetailAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SourceCompanyRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SourceCompanyHandlingItem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="GPCSourceCompany_GPCLog" Member="GPCLogs" ThisKey="GPCSourceCompanyRegisteredNo" OtherKey="GPCSourceCompanyRegisteredNo" Type="GPCLog" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HistorySec" Member="HistorySecs">
+    <Type Name="HistorySec">
+      <Column Name="LogId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="LogDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INSTALLATION" Member="INSTALLATIONs">
+    <Type Name="INSTALLATION">
+      <Column Name="INSTALLATIONCODE" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="INSTALLATIONNAME" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AREA" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="INSTALLATION_Unit" Member="Units" ThisKey="INSTALLATIONCODE" OtherKey="INSTALLATIONCODE" Type="Unit" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ItemClassfiedList" Member="ItemClassfiedLists">
+    <Type Name="ItemClassfiedList">
+      <Column Name="ItemCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemCompany" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemImage" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ItemModel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ItemUnit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ItemUnitPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDBIDS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="ItemClassfiedList_GPCRequestItem" Member="GPCRequestItems" ThisKey="ItemCode" OtherKey="GPCItemCode" Type="GPCRequestItem" />
+      <Association Name="ItemClassfiedList_RequestedItem" Member="RequestedItems" ThisKey="ItemCode" OtherKey="SupplyItemCode" Type="RequestedItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Message" Member="Messages">
+    <Type Name="Message">
+      <Column Name="SentMessageNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SentDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="TypeOfMessage" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Sender" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Message_ReceivedMessage" Member="ReceivedMessages" ThisKey="SentMessageNo" OtherKey="SentMessageNo" Type="ReceivedMessage" />
+      <Association Name="UserAccount_Message" Member="UserAccount" ThisKey="Sender" OtherKey="UserName" Type="UserAccount" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Nationality" Member="Nationalities">
+    <Type Name="Nationality">
+      <Column Name="CountryCode" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Nationality_PersonDetail" Member="PersonDetails" ThisKey="CountryCode" OtherKey="CountryCode" Type="PersonDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NetworkInformation" Member="NetworkInformations">
+    <Type Name="NetworkInformation">
+      <Column Name="SystemIPAddress" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SystemCircuitName" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="IPFrom" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="IPTo" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Gateway" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="SubnetMask" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Association Name="NetworkInformation_AutomatedSystem" Member="AutomatedSystems" ThisKey="SystemIPAddress" OtherKey="SystemIPAddress" Type="AutomatedSystem" />
+      <Association Name="OFFICE_NetworkInformation" Member="OFFICE" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="OFFICE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OFFICE" Member="OFFICEs">
+    <Type Name="OFFICE">
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfficeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BuildingNo" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="RoomNo" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="BuildingName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UIC" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="OFFICE_NetworkInformation" Member="NetworkInformations" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="NetworkInformation" />
+      <Association Name="OFFICE_Person" Member="Persons" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="Person" />
+      <Association Name="OFFICE_Property" Member="Properties" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="Property" />
+      <Association Name="Unit_OFFICE" Member="Unit" ThisKey="UIC" OtherKey="UIC" Type="Unit" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OnlineTraining" Member="OnlineTrainings">
+    <Type Name="OnlineTraining">
+      <Column Name="OnlineTrainingNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TrainingNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EndedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Module1" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module2" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module3" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module4" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module5" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module6" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module7" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module8" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module9" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="TrainingHistory_OnlineTraining" Member="TrainingHistory" ThisKey="OnlineTrainingNo" OtherKey="TrainingNo" Type="TrainingHistory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PartsOfDBIDS" Member="PartsOfDBIDs">
+    <Type Name="PartsOfDBID">
+      <Column Name="PartCode" Type="System.String" DbType="VarChar(7) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PartName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PartRemarks" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Association Name="PartsOfDBID_Board" Member="Boards" ThisKey="PartCode" OtherKey="BOARDPartCode" Type="Board" />
+      <Association Name="PartsOfDBID_ExaminationPool" Member="ExaminationPools" ThisKey="PartCode" OtherKey="EXAMPartCode" Type="ExaminationPool" />
+      <Association Name="PartsOfDBID_FAQ" Member="FAQs" ThisKey="PartCode" OtherKey="FAQPartCode" Type="FAQ" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Person" Member="Persons">
+    <Type Name="Person">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="HomePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="MobilePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="EMail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PersonStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OfficePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="RankID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TypeOfPID" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PersonRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Association Name="Person_AutomatedSystem" Member="AutomatedSystems" ThisKey="PID" OtherKey="SystemManager" Type="AutomatedSystem" />
+      <Association Name="Person_DbidsOperator" Member="DbidsOperator" ThisKey="PID" OtherKey="PID" Type="DbidsOperator" Cardinality="One" />
+      <Association Name="Person_FamilyInfo" Member="FamilyInfos" ThisKey="PID" OtherKey="SponsoredPID" Type="FamilyInfo" />
+      <Association Name="Person_GPCHolder" Member="GPCHolders" ThisKey="PID" OtherKey="GPCHolderPID" Type="GPCHolder" />
+      <Association Name="Person_GPCLog" Member="GPCLogs" ThisKey="PID" OtherKey="GPCRequestedPerson" Type="GPCLog" />
+      <Association Name="Person_GPCLog1" Member="GPCLogs1" ThisKey="PID" OtherKey="GPCReceivedPerson" Type="GPCLog" />
+      <Association Name="Person_PersonalOtherInfo" Member="PersonalOtherInfo" ThisKey="PID" OtherKey="PID" Type="PersonalOtherInfo" Cardinality="One" />
+      <Association Name="Person_PersonDetail" Member="PersonDetail" ThisKey="PID" OtherKey="PID" Type="PersonDetail" Cardinality="One" />
+      <Association Name="Person_Project" Member="Projects" ThisKey="PID" OtherKey="ProjectDrafter" Type="Project" />
+      <Association Name="Person_Property" Member="Properties" ThisKey="PID" OtherKey="PropertySignedPerson" Type="Property" />
+      <Association Name="Person_Schedule" Member="Schedules" ThisKey="PID" OtherKey="ShceduleWriter" Type="Schedule" />
+      <Association Name="Person_SupplyRequest" Member="SupplyRequests" ThisKey="PID" OtherKey="RequestedPerson" Type="SupplyRequest" />
+      <Association Name="Person_SupplyRequest1" Member="SupplyRequests1" ThisKey="PID" OtherKey="ReceivedPerson" Type="SupplyRequest" />
+      <Association Name="Person_SupplyRequest2" Member="SupplyRequests2" ThisKey="PID" OtherKey="ReqRecPerson" Type="SupplyRequest" />
+      <Association Name="Person_SystemTroubleCall" Member="SystemTroubleCalls" ThisKey="PID" OtherKey="TroubleCaller" Type="SystemTroubleCall" />
+      <Association Name="Person_SystemTroubleCall1" Member="SystemTroubleCalls1" ThisKey="PID" OtherKey="TroubleCallReceiver" Type="SystemTroubleCall" />
+      <Association Name="Person_TDYOrder" Member="TDYOrders" ThisKey="PID" OtherKey="PrimaryPerson" Type="TDYOrder" />
+      <Association Name="Person_TDYOrder1" Member="TDYOrders1" ThisKey="PID" OtherKey="SecondaryPerson" Type="TDYOrder" />
+      <Association Name="Person_TroubleRespond" Member="TroubleResponds" ThisKey="PID" OtherKey="Responder" Type="TroubleRespond" />
+      <Association Name="Person_TroubleRespond1" Member="TroubleResponds1" ThisKey="PID" OtherKey="CaontactPerson" Type="TroubleRespond" />
+      <Association Name="Person_UserAccount" Member="UserAccounts" ThisKey="PID" OtherKey="PID" Type="UserAccount" />
+      <Association Name="Person_VehicleInfo" Member="VehicleInfos" ThisKey="PID" OtherKey="PID" Type="VehicleInfo" />
+      <Association Name="OFFICE_Person" Member="OFFICE" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="OFFICE" IsForeignKey="true" />
+      <Association Name="RankService_Person" Member="RankService" ThisKey="RankID" OtherKey="RankID" Type="RankService" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonalOtherInfo" Member="PersonalOtherInfos">
+    <Type Name="PersonalOtherInfo">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Height" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Weight" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HairColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EyeColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="IsGlasses" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PlaceOfBirth" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="Person_PersonalOtherInfo" Member="Person" ThisKey="PID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonDetail" Member="PersonDetails">
+    <Type Name="PersonDetail">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PermanentAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ResidenceAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="DetailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="HasVehicleInfo" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CountryCode" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="DetailPerAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="PerZipCode" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CurZipCode" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Association Name="Nationality_PersonDetail" Member="Nationality" ThisKey="CountryCode" OtherKey="CountryCode" Type="Nationality" IsForeignKey="true" />
+      <Association Name="Person_PersonDetail" Member="Person" ThisKey="PID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project" Member="Projects">
+    <Type Name="Project">
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProjectRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectType" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="ProjectPriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="CompletionRate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjectStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ProjectDrafter" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Association Name="Project_ProjectDocument" Member="ProjectDocuments" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="ProjectDocument" />
+      <Association Name="Project_ProjectHistory" Member="ProjectHistories" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="ProjectHistory" />
+      <Association Name="Project_SubProject" Member="SubProjects" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="SubProject" />
+      <Association Name="Person_Project" Member="Person" ThisKey="ProjectDrafter" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectDocument" Member="ProjectDocuments">
+    <Type Name="ProjectDocument">
+      <Column Name="ProjectDocumentNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectDocumentName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Association Name="Project_ProjectDocument" Member="Project" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectHistory" Member="ProjectHistories">
+    <Type Name="ProjectHistory">
+      <Column Name="ProjectStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectDescription" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Association Name="Project_ProjectHistory" Member="Project" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Properties" Member="Properties">
+    <Type Name="Property">
+      <Column Name="PropertyName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PropertyNo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="PropertyRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PropertyType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PropertyQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PropertyUnitIssue" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="PropertyLocatedRm" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertyLocatedBldg" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertyRemarks" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertySignedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="PropertySerialNo" Type="System.String" DbType="Char(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="PropertyStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Person_Property" Member="Person" ThisKey="PropertySignedPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="OFFICE_Property" Member="OFFICE" ThisKey="OFFICECODE" OtherKey="OFFICECODE" Type="OFFICE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RankServices" Member="RankServices">
+    <Type Name="RankService">
+      <Column Name="RankID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PayGrade" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="RankGrade" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Association Name="RankService_Person" Member="Persons" ThisKey="RankID" OtherKey="RankID" Type="Person" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReceivedMessage" Member="ReceivedMessages">
+    <Type Name="ReceivedMessage">
+      <Column Name="ReceivedMessageNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SentMessageNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Receiver" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ReadDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Message_ReceivedMessage" Member="Message" ThisKey="SentMessageNo" OtherKey="SentMessageNo" Type="Message" IsForeignKey="true" />
+      <Association Name="UserAccount_ReceivedMessage" Member="UserAccount" ThisKey="Receiver" OtherKey="UserName" Type="UserAccount" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RequestedItems" Member="RequestedItems">
+    <Type Name="RequestedItem">
+      <Column Name="RequestedItemNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SupplyItemQuantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SupplyItemStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SupplyItemCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RequsitionCode" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Association Name="ItemClassfiedList_RequestedItem" Member="ItemClassfiedList" ThisKey="SupplyItemCode" OtherKey="ItemCode" Type="ItemClassfiedList" IsForeignKey="true" />
+      <Association Name="SupplyRequest_RequestedItem" Member="SupplyRequest" ThisKey="RequsitionCode" OtherKey="RequsitionCode" Type="SupplyRequest" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Schedule" Member="Schedules">
+    <Type Name="Schedule">
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ScheduleTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ScheduleRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SchedulePlace" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ScheduleNoOfPerson" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SchedulePriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="IsDBIDSTraining" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ScheduleType" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="ShceduleWriter" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ScheduleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Schedule_ScheduleHistory" Member="ScheduleHistories" ThisKey="ScheduleCode" OtherKey="ScheduleCode" Type="ScheduleHistory" />
+      <Association Name="Schedule_SubSchedule" Member="SubSchedules" ThisKey="ScheduleCode" OtherKey="ScheduleCode" Type="SubSchedule" />
+      <Association Name="Person_Schedule" Member="Person" ThisKey="ShceduleWriter" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ScheduleHistory" Member="ScheduleHistories">
+    <Type Name="ScheduleHistory">
+      <Column Name="ScheduleStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleDescription" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ScheduleNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Association Name="Schedule_ScheduleHistory" Member="Schedule" ThisKey="ScheduleCode" OtherKey="ScheduleCode" Type="Schedule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubProject" Member="SubProjects">
+    <Type Name="SubProject">
+      <Column Name="SubProjectNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubProjectTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SubProjectStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SubProjectStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Project_SubProject" Member="Project" ThisKey="ProjectCode" OtherKey="ProjectCode" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubSchedule" Member="SubSchedules">
+    <Type Name="SubSchedule">
+      <Column Name="SubScheduleNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubScheduleStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SubScheduleTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SubScheduleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Schedule_SubSchedule" Member="Schedule" ThisKey="ScheduleCode" OtherKey="ScheduleCode" Type="Schedule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SupplyRequest" Member="SupplyRequests">
+    <Type Name="SupplyRequest">
+      <Column Name="RequestedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RequsitionCode" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RequestedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceivedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ReqRecDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ReqRecPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="RequsitionStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="SupplyRequest_RequestedItem" Member="RequestedItems" ThisKey="RequsitionCode" OtherKey="RequsitionCode" Type="RequestedItem" />
+      <Association Name="Person_SupplyRequest" Member="Person" ThisKey="RequestedPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_SupplyRequest1" Member="Person1" ThisKey="ReceivedPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_SupplyRequest2" Member="Person2" ThisKey="ReqRecPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemTroubleCall" Member="SystemTroubleCalls">
+    <Type Name="SystemTroubleCall">
+      <Column Name="TroubleCallNo" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TroubleShortDescription" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="TroubleReportedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TroubleDescription" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TroubleCaller" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TroubleCallReceiver" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="SystemSerialNo" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TroubleCallStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TroubleTicketNo" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Association Name="SystemTroubleCall_TroubleRespond" Member="TroubleResponds" ThisKey="TroubleCallNo" OtherKey="TroubleCallNo" Type="TroubleRespond" />
+      <Association Name="Person_SystemTroubleCall" Member="Person" ThisKey="TroubleCaller" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_SystemTroubleCall1" Member="Person1" ThisKey="TroubleCallReceiver" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="AutomatedSystem_SystemTroubleCall" Member="AutomatedSystem" ThisKey="SystemSerialNo" OtherKey="SystemSerialNo" Type="AutomatedSystem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDYOrder" Member="TDYOrders">
+    <Type Name="TDYOrder">
+      <Column Name="TDYDocumentNo" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PrimaryPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TDYType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TDYPurpose" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TDYDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TDYProceedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Itinerary" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Transportation" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="DateIssued" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TravelAuthorizationNumber" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="TravelRequestingOfficial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TravelApprovingOfficial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TDYDocumentFile" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="SecondaryPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TDYStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="TDYOrder_TDYVorcher" Member="TDYVorchers" ThisKey="TDYDocumentNo" OtherKey="TDYDocumentNo" Type="TDYVorcher" />
+      <Association Name="Person_TDYOrder" Member="Person" ThisKey="PrimaryPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_TDYOrder1" Member="Person1" ThisKey="SecondaryPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDYVorcher" Member="TDYVorchers">
+    <Type Name="TDYVorcher">
+      <Column Name="TDYVoucherNo" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TDYVoucherFile" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="TDYDocumentNo" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="Payment" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="TypeOfPayment" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Association Name="TDYOrder_TDYVorcher" Member="TDYOrder" ThisKey="TDYDocumentNo" OtherKey="TDYDocumentNo" Type="TDYOrder" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TrainingHistory" Member="TrainingHistories">
+    <Type Name="TrainingHistory">
+      <Column Name="TrainingNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TrainedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClassType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeLastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeFirstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeMiddleName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Trainee" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="Trainer" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="Nominator" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="TrainedLocation" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NextTypeofClass" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TrainingStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TrainingResult" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="TrainingHistory_OnlineTraining" Member="OnlineTraining" ThisKey="TrainingNo" OtherKey="OnlineTrainingNo" Type="OnlineTraining" Cardinality="One" />
+      <Association Name="DbidsOperator_TrainingHistory" Member="DbidsOperator" ThisKey="Nominator" OtherKey="PID" Type="DbidsOperator" IsForeignKey="true" />
+      <Association Name="DbidsOperator_TrainingHistory1" Member="DbidsOperator1" ThisKey="Trainee" OtherKey="PID" Type="DbidsOperator" IsForeignKey="true" />
+      <Association Name="DbidsOperator_TrainingHistory2" Member="DbidsOperator2" ThisKey="Trainer" OtherKey="PID" Type="DbidsOperator" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TroubleRespond" Member="TroubleResponds">
+    <Type Name="TroubleRespond">
+      <Column Name="RespondNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RespondedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RespondDescription" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TroubleCallNo" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Responder" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="CaontactPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Association Name="SystemTroubleCall_TroubleRespond" Member="SystemTroubleCall" ThisKey="TroubleCallNo" OtherKey="TroubleCallNo" Type="SystemTroubleCall" IsForeignKey="true" />
+      <Association Name="Person_TroubleRespond" Member="Person" ThisKey="Responder" OtherKey="PID" Type="Person" IsForeignKey="true" />
+      <Association Name="Person_TroubleRespond1" Member="Person1" ThisKey="CaontactPerson" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeOfAutomatedSystem" Member="TypeOfAutomatedSystems">
+    <Type Name="TypeOfAutomatedSystem">
+      <Column Name="TypeCode" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TypeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeCompany" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeModel" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeImage" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TypeRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="TypeOfAutomatedSystem_AutomatedSystem" Member="AutomatedSystems" ThisKey="TypeCode" OtherKey="TypeCode" Type="AutomatedSystem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Unit" Member="Units">
+    <Type Name="Unit">
+      <Column Name="UIC" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UnitName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UnitPhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="APO" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="AP" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="INSTALLATIONCODE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Association Name="Unit_OFFICE" Member="OFFICEs" ThisKey="UIC" OtherKey="UIC" Type="OFFICE" />
+      <Association Name="INSTALLATION_Unit" Member="INSTALLATION" ThisKey="INSTALLATIONCODE" OtherKey="INSTALLATIONCODE" Type="INSTALLATION" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserAccount" Member="UserAccounts">
+    <Type Name="UserAccount">
+      <Column Name="UserName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.Data.Linq.Binary" DbType="Binary(20)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeOfUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UAStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IsAgreePolicy" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfAgree" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="UserAccount_Board" Member="Boards" ThisKey="UserName" OtherKey="BOARDWriter" Type="Board" />
+      <Association Name="UserAccount_Comment" Member="Comments" ThisKey="UserName" OtherKey="COMMENTWriter" Type="Comment" />
+      <Association Name="UserAccount_FAQ" Member="FAQs" ThisKey="UserName" OtherKey="FAQWriter" Type="FAQ" />
+      <Association Name="UserAccount_Message" Member="Messages" ThisKey="UserName" OtherKey="Sender" Type="Message" />
+      <Association Name="UserAccount_ReceivedMessage" Member="ReceivedMessages" ThisKey="UserName" OtherKey="Receiver" Type="ReceivedMessage" />
+      <Association Name="Person_UserAccount" Member="Person" ThisKey="PID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VehicleInfo" Member="VehicleInfos">
+    <Type Name="VehicleInfo">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="VIN" Type="System.String" DbType="VarChar(17) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehPlateNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="VehColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehManufacturer" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehYear" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PlaceOfRegistration" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehType" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="VehSafetyInspectionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsSamePersonOfInsurance" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="VehicleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="VehicleInfo_VehicleInsurance" Member="VehicleInsurances" ThisKey="VIN" OtherKey="VIN" Type="VehicleInsurance" />
+      <Association Name="Person_VehicleInfo" Member="Person" ThisKey="PID" OtherKey="PID" Type="Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VehicleInsurance" Member="VehicleInsurances">
+    <Type Name="VehicleInsurance">
+      <Column Name="VehInsurancePolicyNo" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehInsuranceHolderLastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehInsuranceHolderFirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VehInsuranceCompany" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VehInsuranceRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VehInsuranceExpirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VIN" Type="System.String" DbType="VarChar(17) NOT NULL" CanBeNull="false" />
+      <Association Name="VehicleInfo_VehicleInsurance" Member="VehicleInfo" ThisKey="VIN" OtherKey="VIN" Type="VehicleInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

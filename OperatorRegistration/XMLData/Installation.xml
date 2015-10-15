@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<InstallationNameOptions>
+  <InstallationOptions>
+    <InstallationNameOption>
+      <InstallationName>Casey</InstallationName>
+      <InstallationCode>AC</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Dongduchon</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Hovey</InstallationName>
+      <InstallationCode>AL</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Dongduchon</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Castle</InstallationName>
+      <InstallationCode>BE</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Dongduchon</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Mobile</InstallationName>
+      <InstallationCode>BG</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Dongduchon</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>CRC</InstallationName>
+      <InstallationCode>AT</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Uijongbu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Stanley</InstallationName>
+      <InstallationCode>AU</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Uijongbu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Jackson</InstallationName>
+      <InstallationCode>BA</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Uijongbu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Warrior Base</InstallationName>
+      <InstallationCode>CG</InstallationCode>
+      <Area>AREA I</Area>
+      <City>Munsan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>K-16</InstallationName>
+      <InstallationCode>AM</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Songnam</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>FED</InstallationName>
+      <InstallationCode>AF</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Hannam</InstallationName>
+      <InstallationCode>BC</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>YONGSAN</InstallationName>
+      <InstallationCode>AX</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Market</InstallationName>
+      <InstallationCode>AQ</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Bupyong</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Retreat Center</InstallationName>
+      <InstallationCode>BZ</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Sobinggo</InstallationName>
+      <InstallationCode>CF</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>TMP</InstallationName>
+      <InstallationCode>CE</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Songnam</InstallationName>
+      <InstallationCode>CM</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Songnam</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>US Embassy</InstallationName>
+      <InstallationCode>BW</InstallationCode>
+      <Area>AREA II</Area>
+      <City>Seoul</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Humphreys</InstallationName>
+      <InstallationCode>AK</InstallationCode>
+      <Area>AREA III</Area>
+      <City>Pyongtaek</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Suwon</InstallationName>
+      <InstallationCode>CV</InstallationCode>
+      <Area>AREA III</Area>
+      <City>Suwon</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Carroll</InstallationName>
+      <InstallationCode>AB</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Waegwan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Henry</InstallationName>
+      <InstallationCode>AI</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Daegu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Walker</InstallationName>
+      <InstallationCode>AV</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Daegu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>George</InstallationName>
+      <InstallationCode>BJ</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Daegu</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>BSF</InstallationName>
+      <InstallationCode>BH</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Busan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Pier 8</InstallationName>
+      <InstallationCode>BL</InstallationCode>
+      <Area>AREA IV</Area>
+      <City>Busan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Osan</InstallationName>
+      <InstallationCode>AR</InstallationCode>
+      <Area>AREA V</Area>
+      <City>Osan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Kunsan</InstallationName>
+      <InstallationCode>AN</InstallationCode>
+      <Area>AREA VI</Area>
+      <City>Kunsan</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Chinhae</InstallationName>
+      <InstallationCode>AD</InstallationCode>
+      <Area>AREA VII</Area>
+      <City>Chinhae</City>
+    </InstallationNameOption>
+    <InstallationNameOption>
+      <InstallationName>Mujuk</InstallationName>
+      <InstallationCode>DI</InstallationCode>
+      <Area>AREA VIII</Area>
+      <City>Pohang</City>
+    </InstallationNameOption>
+  </InstallationOptions>
+</InstallationNameOptions>
+

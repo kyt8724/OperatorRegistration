@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UserTypes>
+  <UserTypeOptions>
+    <UserTypeOption>
+      <Value>User</Value>
+      <UserType>User</UserType>
+    </UserTypeOption>
+    <UserTypeOption>
+      <Value>Manager</Value>
+      <UserType>Manager</UserType>
+    </UserTypeOption>
+    <UserTypeOption>
+      <Value>Instructor</Value>
+      <UserType>Instructor</UserType>
+    </UserTypeOption>
+    <UserTypeOption>
+      <Value>DBIDS Manager</Value>
+      <UserType>DBIDS Manager</UserType>
+    </UserTypeOption>
+    <UserTypeOption>
+      <Value>Supply Manager</Value>
+      <UserType>Supply Manager</UserType>
+    </UserTypeOption>
+    <UserTypeOption>
+      <Value>Administrator</Value>
+      <UserType>Administrator</UserType>
+    </UserTypeOption>
+  </UserTypeOptions>
+</UserTypes>

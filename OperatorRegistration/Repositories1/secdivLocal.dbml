@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="secdiv" Class="secdivLocalDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SECU31-PC\THIRD;Initial Catalog=secdiv;Integrated Security=True" SettingsObjectName="OperatorRegistration.Properties.Settings" SettingsPropertyName="secdivConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ALLDBIDSSYSTEM" Member="ALLDBIDSSYSTEMs">
+    <Type Name="ALLDBIDSSYSTEM">
+      <Column Name="SystemNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SiteId" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="InstallatioName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SystemName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SystemRemarks" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DbidsVersion" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="HHVersion" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="HHServerVersion" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="WAPType" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SubnetMask" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Gateway" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MachineType" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CPUModel" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SerialNo" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MacAddress" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SystemRm" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SystemLocation" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="POCPhone" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Circuit" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DBIDSSystemType" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="IsESPG" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HHScanners" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ZipCode" Member="ZipCodes">
+    <Type Name="ZipCode">
+      <Column Name="Seq" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ZipCode" Member="ZipCode1" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="SiDo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="GuGun" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dong" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Bunji" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Attachement" Member="Attachements">
+    <Type Name="Attachement">
+      <Column Name="AttachementNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SysFileName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DownloadCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserFileName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="AttachmentIsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OrderNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AutomatedSystem" Member="AutomatedSystems">
+    <Type Name="AutomatedSystem">
+      <Column Name="SystemSerialNo" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SystemName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="InstalledDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SystemIPAddress" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="SystemManager" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SystemStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SystemMacAddress" Type="System.String" DbType="VarChar(17)" CanBeNull="true" />
+      <Column Name="SystemCircuitName" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="SystemSoftwareVersion" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="SystemHHVersion" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="SystemHHServerVersion" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="SystemWAPType" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="SystemLocatedRm" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SystemLocatedBldg" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SystemManagerName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SystemPoc" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="InstallationCode" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="OfficeCode" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="SiteId" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="HHScannersQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsESPG" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SystemType" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="LatestUpdateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAirfortress" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Board" Member="Boards">
+    <Type Name="Board">
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BOARDTitle" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="BOARDRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BOARDContent" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="BOARDPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="BOARDType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDReadCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDisDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BOARDStep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDDepth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDGroupNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOARDWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="BoardWriterName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDLastUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BOARDPriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CertificateHistory" Member="CertificateHistories">
+    <Type Name="CertificateHistory">
+      <Column Name="CertificateControlNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HistoryDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateIssuedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CertificateHistoryRemarks" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Comment" Member="Comments">
+    <Type Name="Comment">
+      <Column Name="CommentNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="COMMENTContent" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="COMMENTRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="COMMENTWriterName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="COMMENTWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="BoardNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COMMENTISDELETED" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DbidsCertificate" Member="DbidsCertificates">
+    <Type Name="DbidsCertificate">
+      <Column Name="CertificateNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CertificateRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OperatorPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="CertificateRemarks" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="CertificateUpdatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CertificateExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DbidsOperator" Member="DbidsOperators">
+    <Type Name="DbidsOperator">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OperatorType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="IsTrainer" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastTrainedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EquipmentsOfDBIDS" Member="EquipmentsOfDBIDs">
+    <Type Name="EquipmentsOfDBID">
+      <Column Name="SerialNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SystemName" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="CPU" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Monitor" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Printer" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="FPReader" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="PGScanner" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Camera" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Laminator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="PDA" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AccessPoint" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExaminationPool" Member="ExaminationPools">
+    <Type Name="ExaminationPool">
+      <Column Name="ExaminationNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ExaminationQuestion" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ExaminationPhoto" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Answer1" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="RightAnswer" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Answer2" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer3" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer4" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer5" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="IsAnswerMoreThan5" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EXAMPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="ExaminationType" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ExaminationStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExtendedAnswer" Member="ExtendedAnswers">
+    <Type Name="ExtendedAnswer">
+      <Column Name="Answer6" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer7" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer8" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer9" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Answer10" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="EXTENDEDANSWERNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FamilyInfo" Member="FamilyInfos">
+    <Type Name="FamilyInfo">
+      <Column Name="SponsoredPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="FamilyRelationship" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DOB" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FAQ" Member="FAQs">
+    <Type Name="FAQ">
+      <Column Name="FAQNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FAQQuestion" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="FAQAnswer" Type="System.String" DbType="VarChar(4000)" CanBeNull="true" />
+      <Column Name="FAQDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FAQAccessNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FAQType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FAQPartCode" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="FAQWriter" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="FAQIsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCHolder" Member="GPCHolders">
+    <Type Name="GPCHolder">
+      <Column Name="GPCHolderPID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCHolderType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="GPCNumber" Type="System.String" DbType="VarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCSingleLimit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCMonthlyLimit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCSTATUS" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCLog" Member="GPCLogs">
+    <Type Name="GPCLog">
+      <Column Name="GPCDocumentCode" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCRequestedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCReceivedPerson" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="GPCRequestedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCSourceCompanyRegisteredNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GPCLogDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPCStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="GPCRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="GPCNumber" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCRequestItems" Member="GPCRequestItems">
+    <Type Name="GPCRequestItem">
+      <Column Name="GPCDocumentCode" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="GPCRequestItemNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GPCItemQuantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCItemTotalPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPCItemCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GPCSourceCompany" Member="GPCSourceCompanies">
+    <Type Name="GPCSourceCompany">
+      <Column Name="GPCSourceCompanyRegisteredNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SourceCompanyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SourceCompanyPOC" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+      <Column Name="SourceCompanyPhone" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="SourceCompanyZipCode" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="SourceCompanyAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SourceCompanyDetailAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SourceCompanyRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SourceCompanyHandlingItem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HistorySec" Member="HistorySecs">
+    <Type Name="HistorySec">
+      <Column Name="LogId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="LogDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INSTALLATION" Member="INSTALLATIONs">
+    <Type Name="INSTALLATION">
+      <Column Name="INSTALLATIONCODE" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="INSTALLATIONNAME" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AREA" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SiteId" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ItemClassfiedList" Member="ItemClassfiedLists">
+    <Type Name="ItemClassfiedList">
+      <Column Name="ItemCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemCompany" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemImage" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ItemModel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ItemRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ItemUnit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ItemUnitPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDBIDS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Message" Member="Messages">
+    <Type Name="Message">
+      <Column Name="SentMessageNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SentDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="TypeOfMessage" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Sender" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Nationality" Member="Nationalities">
+    <Type Name="Nationality">
+      <Column Name="CountryCode" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NetworkInformation" Member="NetworkInformations">
+    <Type Name="NetworkInformation">
+      <Column Name="SystemCircuitName" Type="System.String" DbType="VarChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IPFrom" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="IPTo" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Gateway" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="SubnetMask" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="ManagerPid" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="InstallationCode" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="IsExistedDiagram" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ManagerName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="NetworkPOC" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OFFICE" Member="OFFICEs">
+    <Type Name="OFFICE">
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfficeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BuildingNo" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="RoomNo" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="BuildingName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UIC" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OnlineTraining" Member="OnlineTrainings">
+    <Type Name="OnlineTraining">
+      <Column Name="OnlineTrainingNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TrainingNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EndedDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Module1" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module2" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module3" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module4" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module5" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module6" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module7" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module8" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Module9" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PartsOfDBIDS" Member="PartsOfDBIDs">
+    <Type Name="PartsOfDBID">
+      <Column Name="PartCode" Type="System.String" DbType="VarChar(7) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PartName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PartRemarks" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Person" Member="Persons">
+    <Type Name="Person">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="HomePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="MobilePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="EMail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PersonStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OfficePhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="RankID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TypeOfPID" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PersonRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonalOtherInfo" Member="PersonalOtherInfos">
+    <Type Name="PersonalOtherInfo">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Height" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Weight" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HairColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EyeColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="IsGlasses" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PlaceOfBirth" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonDetail" Member="PersonDetails">
+    <Type Name="PersonDetail">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PermanentAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ResidenceAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="DetailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="HasVehicleInfo" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CountryCode" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="DetailPerAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="PerZipCode" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="CurZipCode" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project" Member="Projects">
+    <Type Name="Project">
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProjectRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectType" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="ProjectPriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="CompletionRate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjectStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ProjectDrafter" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectDocument" Member="ProjectDocuments">
+    <Type Name="ProjectDocument">
+      <Column Name="ProjectDocumentNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectDocumentName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectHistory" Member="ProjectHistories">
+    <Type Name="ProjectHistory">
+      <Column Name="ProjectStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectDescription" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProjectNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Properties" Member="Properties">
+    <Type Name="Property">
+      <Column Name="PropertyName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PropertyNo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="PropertyRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PropertyType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PropertyQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PropertyUnitIssue" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="PropertyLocatedRm" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertyLocatedBldg" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertyRemarks" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="PropertySignedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="PropertySerialNo" Type="System.String" DbType="Char(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OFFICECODE" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="PropertyStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RankServices" Member="RankServices">
+    <Type Name="RankService">
+      <Column Name="RankID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PayGrade" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="RankGrade" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReceivedMessage" Member="ReceivedMessages">
+    <Type Name="ReceivedMessage">
+      <Column Name="ReceivedMessageNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SentMessageNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Receiver" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ReadDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RequestedItems" Member="RequestedItems">
+    <Type Name="RequestedItem">
+      <Column Name="RequestedItemNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SupplyItemQuantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SupplyItemStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SupplyItemCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RequsitionCode" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Schedule" Member="Schedules">
+    <Type Name="Schedule">
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ScheduleTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ScheduleRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SchedulePlace" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ScheduleNoOfPerson" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SchedulePriority" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="IsDBIDSTraining" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ScheduleType" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="ShceduleWriter" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ScheduleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ScheduleHistory" Member="ScheduleHistories">
+    <Type Name="ScheduleHistory">
+      <Column Name="ScheduleStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ScheduleDescription" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ScheduleNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubProject" Member="SubProjects">
+    <Type Name="SubProject">
+      <Column Name="SubProjectNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubProjectTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SubProjectStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubProjectRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SubProjectStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubSchedule" Member="SubSchedules">
+    <Type Name="SubSchedule">
+      <Column Name="SubScheduleNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubScheduleStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubScheduleRemarks" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SubScheduleTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ScheduleCode" Type="System.String" DbType="VarChar(18) NOT NULL" CanBeNull="false" />
+      <Column Name="SubScheduleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SupplyRequest" Member="SupplyRequests">
+    <Type Name="SupplyRequest">
+      <Column Name="RequestedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ReceivedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RequsitionCode" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RequestedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceivedPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="ReqRecDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ReqRecPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="RequsitionStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sysdiagrams" Member="sysdiagrams">
+    <Type Name="sysdiagram">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="diagram_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="version" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="definition" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemHistory" Member="SystemHistories">
+    <Type Name="SystemHistory">
+      <Column Name="SystemHistoryNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SystemSerialNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SystemNewName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SystemOldName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="HistoryInputDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HistoryInputUser" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="SystemHistoryRemarks" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemTroubleCall" Member="SystemTroubleCalls">
+    <Type Name="SystemTroubleCall">
+      <Column Name="TroubleCallNo" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TroubleShortDescription" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="TroubleReportedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TroubleDescription" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TroubleCaller" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TroubleCallReceiver" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="SystemSerialNo" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TroubleCallStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TroubleTicketNo" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDYOrder" Member="TDYOrders">
+    <Type Name="TDYOrder">
+      <Column Name="TDYDocumentNo" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PrimaryPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TDYType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TDYPurpose" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TDYDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TDYProceedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Itinerary" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Transportation" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="DateIssued" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TravelAuthorizationNumber" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="TravelRequestingOfficial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TravelApprovingOfficial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TDYDocumentFile" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="SecondaryPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TDYStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDYVorcher" Member="TDYVorchers">
+    <Type Name="TDYVorcher">
+      <Column Name="TDYVoucherNo" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TDYVoucherFile" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="TDYDocumentNo" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="Payment" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="TypeOfPayment" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TrainingHistory" Member="TrainingHistories">
+    <Type Name="TrainingHistory">
+      <Column Name="TrainingNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TrainedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClassType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeLastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeFirstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TraineeMiddleName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Trainee" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="Trainer" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="Nominator" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+      <Column Name="TrainedLocation" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NextTypeofClass" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TrainingStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TrainingResult" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TroubleRespond" Member="TroubleResponds">
+    <Type Name="TroubleRespond">
+      <Column Name="RespondNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RespondedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RespondDescription" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TroubleCallNo" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Responder" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="CaontactPerson" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeOfAutomatedSystem" Member="TypeOfAutomatedSystems">
+    <Type Name="TypeOfAutomatedSystem">
+      <Column Name="TypeCode" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeCompany" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeModel" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeImage" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TypeRemarks" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Unit" Member="Units">
+    <Type Name="Unit">
+      <Column Name="UIC" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UnitName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UnitPhone" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="APO" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="AP" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="INSTALLATIONCODE" Type="System.String" DbType="VarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserAccount" Member="UserAccounts">
+    <Type Name="UserAccount">
+      <Column Name="UserName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.Data.Linq.Binary" DbType="Binary(20)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeOfUser" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UAStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IsAgreePolicy" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfAgree" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VehicleInfo" Member="VehicleInfos">
+    <Type Name="VehicleInfo">
+      <Column Name="PID" Type="System.String" DbType="VarChar(14) NOT NULL" CanBeNull="false" />
+      <Column Name="VIN" Type="System.String" DbType="VarChar(17) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehPlateNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="VehColor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehManufacturer" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehYear" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PlaceOfRegistration" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehType" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="VehSafetyInspectionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsSamePersonOfInsurance" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="VehicleStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VehicleInsurance" Member="VehicleInsurances">
+    <Type Name="VehicleInsurance">
+      <Column Name="VehInsurancePolicyNo" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehInsuranceHolderLastName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="VehInsuranceHolderFirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VehInsuranceCompany" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VehInsuranceRegDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VehInsuranceExpirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VIN" Type="System.String" DbType="VarChar(17) NOT NULL" CanBeNull="false" />
+      <Column Name="msrepl_tran_version" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

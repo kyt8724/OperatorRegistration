@@ -1,0 +1,158 @@
+﻿<Application x:Class="OperatorRegistration.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Startup="Application_Startup" ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <!-- Top Background Brush Setting -->
+        <LinearGradientBrush x:Key="Top" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#294955"/>
+            <GradientStop Offset="0.3" Color="#293A55"/>
+            <GradientStop Offset="0.3" Color="#293A55"/>
+            <GradientStop Offset="0.9" Color="#293A55"/>
+            <GradientStop Offset="0.9" Color="#293A55"/>
+            <GradientStop Offset="1" Color="#294955"/>
+        </LinearGradientBrush>
+
+        <!-- Bottom Background Brush Setting -->
+        <LinearGradientBrush x:Key="Bottom" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0" Color="#294955"/>
+            <GradientStop Offset="0.1" Color="#293A55"/>
+            <GradientStop Offset="0.1" Color="#293A55"/>
+            <GradientStop Offset="0.7" Color="#293A55"/>
+            <GradientStop Offset="0.7" Color="#293A55"/>
+            <GradientStop Offset="1" Color="#294955"/>
+        </LinearGradientBrush>
+
+        <!-- TextBox - Color is sky -->
+        <Style x:Key="skyColorTxtStyle" TargetType="TextBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Background" Value="#FFD1E6FF" />
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Width" Value="170" />
+        </Style>
+
+        <!-- TextBox - Color is sky, ReadOnly, Text align is center -->
+        <Style x:Key="ReadOnlyStyle" BasedOn="{StaticResource skyColorTxtStyle}" TargetType="TextBox">
+            <Setter Property="Background" Value="#FFD1E6F5" />
+            <Setter Property="IsReadOnly" Value="True" />
+        </Style>
+
+        <!-- TextBlock - Color is sky -->
+        <Style x:Key="skyColorTxbStyle" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Background" Value="#FFD1E6FF" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Padding" Value="0,5,0,0" />
+            <Setter Property="Opacity" Value="0.9" />
+            <Setter Property="Width" Value="160" />
+        </Style>
+
+
+        <!-- ComboBox -->
+        <Style x:Key="CbxStyle" TargetType="ComboBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="BorderBrush" Value="White" />
+            <Setter Property="Height" Value="25" />
+        </Style>
+
+        <!-- ComboBox - Color is sky -->
+        <Style x:Key="skyColorCbxStyle" TargetType="ComboBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Background" Value="#FFD1E6FF" />
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Width" Value="170" />
+        </Style>
+
+        <!-- ListBox - Color is sky -->
+        <Style x:Key="skyColorLbxStyle" TargetType="ListBox">
+            <Setter Property="Background" Value="#FFD1E6FF" />
+        </Style>
+
+        <!-- Header - Title of the Form -->
+        <Style x:Key="lblTitle" TargetType="Label">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+
+        <!-- GroupBox Header Style, Bold -->
+        <DataTemplate x:Key="GroupHeaderTemplate">
+            <TextBlock Text="{Binding}" Foreground="Brown" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        </DataTemplate>
+
+        <!-- GroupBox Style -->
+        <Style x:Key="GroupBoxStyle" TargetType="GroupBox">
+            <Setter Property="BorderBrush" Value="#FFF8E2E2" />
+            <Setter Property="BorderThickness" Value="2" />
+            <Setter Property="Margin" Value="5" />
+        </Style>
+
+        <!-- GroupBox Header Style, Color is white -->
+        <DataTemplate x:Key="WhiteHeaderTemplate">
+            <TextBlock Text="{Binding}" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        </DataTemplate>
+
+        <!-- Header TextBlock Style -->
+        <Style x:Key="HeaderTextBlock" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+        <!-- Header TextBlock Style -->
+        <Style x:Key="WhiteHeaderTextBlock" BasedOn="{StaticResource HeaderTextBlock}" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+
+        <!-- Button -->
+        <Style x:Key="BtnStyle" TargetType="Button">
+            <Setter Property="BorderBrush" Value="#FF7F9DB9" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Margin" Value="5,0,5,0" />
+        </Style>
+
+        <!-- Label Style -->
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+        <Style x:Key="ReadOnlyLabelStyle" BasedOn="LabelStyle" TargetType="Label" >
+            <Setter Property="Opacity" Value="0.5" />
+        </Style>
+
+        <!-- Selector Label -->
+        <Style x:Key="Selector" TargetType="Label">
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Height" Value="12" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+
+        <!-- CheckBox Style -->
+        <Style x:Key="ckbStyle" TargetType="CheckBox">
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+
+        <Style x:Key="ReadOnlyCkbStyle" BasedOn="ckbStyle" TargetType="CheckBox">
+            <Setter Property="Opacity" Value="0.5" />
+        </Style>
+
+        <!-- DatePicker Style -->
+        <Style x:Key="dpkStyle" TargetType="DatePicker">
+            <Setter Property="Background" Value="#FFD1E6FF" />
+        </Style>
+
+        <Style x:Key="ReadOnlyDpkStyle" TargetType="DatePicker">
+            <Setter Property="Opacity" Value="0.5" />
+        </Style>
+
+
+    </Application.Resources>
+</Application>

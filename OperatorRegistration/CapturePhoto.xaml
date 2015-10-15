@@ -1,0 +1,56 @@
+﻿<Window x:Class="OperatorRegistration.CapturePhoto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CapturePhoto" Height="450" Width="400" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#293955" />
+            <Setter Property="Width" Value="60" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5, 0">
+            <GradientStop Color="#293955" Offset="0.916" />
+            <GradientStop Color="#294955" Offset="0.145" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="14*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Fill="{StaticResource Top}" />
+        <TextBlock Text="Capture Photo" Style="{StaticResource WhiteHeaderTextBlock}" />
+        <!--<StackPanel Grid.Row="1" Background="White" Width="270" VerticalAlignment="Center">
+            <Border Width="250" Height="290" BorderThickness="3" CornerRadius="3" Background="Ivory" Margin="0,10,0,10">
+                <Border.BorderBrush>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#294955" Offset="0.047" />
+                        <GradientStop Color="#293955" Offset="1" />
+                    </RadialGradientBrush>
+                </Border.BorderBrush>
+                <Image x:Name="imgVideo" Width="240" Height="280" Stretch="UniformToFill"/>
+            </Border>
+        </StackPanel>-->
+        <Grid Grid.Row="1" Width="320" Height="240">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="18*"/>
+                <ColumnDefinition Width="7*" />
+            </Grid.ColumnDefinitions>
+            <Image x:Name="imgVideo" Grid.Row="0" Grid.ColumnSpan="3" Width="320" Height="240" Stretch="Fill" />
+            <Rectangle Width="70" Height="240" Fill="#293955"/>
+            <Rectangle Grid.Column="1" Width="180" Height="240" Fill="Transparent"></Rectangle>
+            <Rectangle Grid.Column="2" Width="70" Height="240" Fill="#293955" />
+        </Grid>
+        <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="btnStart" Content="Live" Style="{StaticResource ButtonStyle}" Click="btnStart_Click" />
+            <Button x:Name="btnStop" Content="Stop" Style="{StaticResource ButtonStyle}" Click="btnStop_Click" />
+            <Button x:Name="btnCancel" Content="Take" Style="{StaticResource ButtonStyle}" Click="btnCapture_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

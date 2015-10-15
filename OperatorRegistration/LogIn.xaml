@@ -1,0 +1,63 @@
+﻿<Window x:Class="OperatorRegistration.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="220" Width="300" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Border Width="Auto" Height="Auto" Name="operatorWindow" BorderBrush="Blue" BorderThickness="1" CornerRadius="0,20,20,40" Opacity="0.9">
+        <Border.Background>
+            <LinearGradientBrush>
+                <GradientStopCollection>
+                    <!--<GradientStop Color="#E7EBF7" Offset="0.0" />
+                    <GradientStop Color="#CEE3FF" Offset="0.5" />-->
+                    <GradientStop Color="LightYellow" Offset="0.0" />
+                    <GradientStop Color="LightGoldenrodYellow" Offset="0.5" />
+
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="5*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <!-- Top Rectangle -->
+            <Border Grid.Row="0" CornerRadius="0,20,0,0" Background="{StaticResource Top}">
+                <!--<Rectangle  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>-->
+
+                <Grid>
+                    <!-- Title of this window -->
+                    <Label Content="TRAINEE REGISTRATION" Grid.Column="0" Style="{StaticResource lblTitle}" Foreground="White" />
+                </Grid>
+            </Border>
+            <!-- Bottom Rectangle -->
+            <Border CornerRadius="0,0,20,40" Grid.Row="3" Background="{StaticResource Bottom}" >
+                <!--<Rectangle Fill="{StaticResource Bottom}"  />-->
+            </Border>
+
+            <StackPanel Grid.Row="0">
+                <Image />
+            </StackPanel>
+            <GroupBox Header="Login" Foreground="Purple" HeaderTemplate="{StaticResource GroupHeaderTemplate}" Grid.Row="1" Style="{StaticResource GroupBoxStyle}" >
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,5">
+                        <Label Content="User Name :" Width="90" VerticalAlignment="Center" Foreground="Blue" FontWeight="Bold" />
+                        <TextBox Width="150" Name="txtCommonID" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Label Content="Password :" Width="90" VerticalAlignment="Center" Foreground="Blue" FontWeight="Bold" />
+                        <PasswordBox Width="150" Name="txtCommonPassword" KeyDown="txtCommonPassword_KeyDown" />
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5,0">
+                <Button Content="Login" Width="60" Name="btnCommonLogin" Click="btnCommonLogin_Clcik" Height="25" Foreground="Blue"></Button>
+                <Button Content="Cancel" Width="60" Name="btnCommonCancel" Click="btnCommonCancel_Clcik" Height="25" Foreground="Blue"></Button>
+
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
+
